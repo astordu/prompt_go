@@ -1,0 +1,32 @@
+# 本地提示词管理软件依赖包清单
+
+# 全局快捷键监听
+pynput>=1.7.6
+
+# 剪贴板操作
+pyperclip>=1.8.2
+
+# HTTP请求和API调用
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# 配置文件管理 (YAML)
+PyYAML>=6.0.1
+
+# 文件系统监控
+watchdog>=3.0.0
+
+# 异步编程支持
+asyncio>=3.4.3
+
+# 日志记录增强
+coloredlogs>=15.0.1
+
+# 测试框架
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# 代码质量工具
+black>=23.0.0
+flake8>=6.0.0 

@@ -1,0 +1,31 @@
+# 本地提示词管理软件 - 全局配置文件示例
+# 复制此文件为 global_config.yaml 并填入真实的API密钥
+
+api:
+  deepseek:
+    base_url: https://api.deepseek.com
+    # 示例密钥格式（请替换为您的真实密钥）
+    key: 'sk-1234567890abcdef1234567890abcdef'
+    model: deepseek-chat
+  
+  kimi:
+    base_url: https://api.moonshot.cn
+    # 示例密钥格式（请替换为您的真实密钥）
+    key: 'sk-abcdef1234567890abcdef1234567890'
+    model: moonshot-v1-8k
+
+logging:
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+
+performance:
+  max_retries: 3
+  response_timeout: 30
+  retry_delay: 1
+
+# 配置步骤:
+# 1. 复制此文件为 global_config.yaml
+# 2. 在 https://platform.deepseek.com/ 获取 Deepseek API Key
+# 3. 在 https://platform.moonshot.cn/ 获取 Kimi API Key  
+# 4. 将真实的API密钥填入对应的 'key' 字段
+# 5. 根据需要调整其他配置参数 

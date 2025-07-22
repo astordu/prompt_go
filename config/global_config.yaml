@@ -1,0 +1,16 @@
+api:
+  deepseek:
+    base_url: https://api.deepseek.com
+    key: ''
+    model: deepseek-chat
+  kimi:
+    base_url: https://api.moonshot.cn
+    key: ''
+    model: moonshot-v1-8k
+logging:
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+performance:
+  max_retries: 3
+  response_timeout: 30
+  retry_delay: 1
