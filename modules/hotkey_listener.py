@@ -863,7 +863,7 @@ class HotkeyListener:
                         else:
                             # 尝试解析模板验证格式
                             try:
-                                self.template_parser.reader.parse_template_file(template_path)
+                                self.template_parser.parse_template_by_path(template_path)
                             except Exception:
                                 issues['invalid_format'].append(f"{hotkey} -> {template}")
                     except PermissionError:

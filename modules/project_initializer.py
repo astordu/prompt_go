@@ -279,7 +279,7 @@ max_tokens: 2000        # 最大令牌数
 
 
 def initialize_on_startup(project_root: Optional[str] = None, 
-                         create_examples: bool = True) -> bool:
+                         create_examples: bool = True) -> dict:
     """
     程序启动时的自动初始化函数
     
@@ -288,11 +288,15 @@ def initialize_on_startup(project_root: Optional[str] = None,
         create_examples: 是否创建示例模板
         
     Returns:
-        bool: 初始化是否成功
+        dict: 包含 'success' 和 'message' 键的结果字典
     """
     try:
         initializer = ProjectInitializer(project_root)
-        return initializer.initialize_project(create_examples)
+        success = initializer.initialize_project(create_examples)
+        if success:
+            return {"success": True, "message": "项目初始化完成"}
+        else:
+            return {"success": False, "error": "项目初始化失败"}
     except Exception as e:
         logger.error(f"启动时初始化失败: {e}")
-        return False 
+        return {"success": False, "error": str(e)} 

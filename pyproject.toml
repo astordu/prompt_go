@@ -8,6 +8,7 @@ dependencies = [
     "aiohttp>=3.9.0",
     "asyncio>=3.4.3",
     "coloredlogs>=15.0.1",
+    "psutil>=5.9.0",
     "pynput>=1.7.6",
     "pyperclip>=1.8.2",
     "pytest-asyncio>=0.21.0",

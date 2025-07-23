@@ -450,6 +450,9 @@ class TextProcessor:
                 template_content = self.template_parser.parse_template(template_name)
                 result['template_content'] = {
                     'model_name': template_content.get_model_name(),
+                    'provider_name': template_content.get_provider_name(),
+                    'specific_model_name': template_content.get_specific_model_name(),
+                    'is_provider_model_format': template_content.is_provider_model_format(),
                     'model_config': template_content.model_config,
                     'placeholders': template_content.find_placeholders(),
                     'placeholder_count': template_content.get_placeholder_count()
@@ -713,8 +716,11 @@ class TextProcessor:
                 logger.error(f"未配置 {model_type.value} 的API密钥")
                 return None
             
+            # 获取base_url
+            base_url = self._get_base_url_for_model(model_type)
+            
             # 创建客户端
-            client = ModelClientFactory.create_client(model_type, api_key)
+            client = ModelClientFactory.create_client(model_type, api_key, base_url=base_url)
             if client:
                 self._model_clients[model_name] = client
                 logger.debug(f"创建模型客户端: {model_name} ({model_type.value})")
@@ -727,24 +733,38 @@ class TextProcessor:
     
     def _determine_model_type(self, model_name: str) -> Optional[ModelType]:
         """
-        根据模型名称确定模型类型
+        根据模型名称确定模型类型（支持厂商,模型格式）
         
         Args:
-            model_name: 模型名称
+            model_name: 模型名称（支持 "厂商,具体模型" 或 "模型名" 格式）
             
         Returns:
             Optional[ModelType]: 模型类型
         """
-        model_name_lower = model_name.lower()
-        
-        if 'deepseek' in model_name_lower:
-            return ModelType.DEEPSEEK
-        elif 'kimi' in model_name_lower or 'moonshot' in model_name_lower:
-            return ModelType.KIMI
+        # 检查是否是厂商,模型格式
+        if ',' in model_name and len(model_name.split(',')) == 2:
+            provider = model_name.split(',', 1)[0].strip().lower()
+            
+            # 根据厂商确定模型类型
+            if provider == 'deepseek':
+                return ModelType.DEEPSEEK
+            elif provider == 'kimi':
+                return ModelType.KIMI
+            else:
+                logger.error(f"不支持的厂商: {provider}")
+                return None
         else:
-            # 默认尝试deepseek
-            logger.warning(f"未知模型类型: {model_name}，默认使用 Deepseek")
-            return ModelType.DEEPSEEK
+            # 原有逻辑：根据模型名称推断
+            model_name_lower = model_name.lower()
+            
+            if 'deepseek' in model_name_lower:
+                return ModelType.DEEPSEEK
+            elif 'kimi' in model_name_lower or 'moonshot' in model_name_lower:
+                return ModelType.KIMI
+            else:
+                # 默认尝试deepseek
+                logger.warning(f"未知模型类型: {model_name}，默认使用 Deepseek")
+                return ModelType.DEEPSEEK
     
     def _get_api_key_for_model(self, model_type: ModelType) -> Optional[str]:
         """
@@ -760,9 +780,9 @@ class TextProcessor:
             self.config_manager.load_config()
             
             if model_type == ModelType.DEEPSEEK:
-                return self.config_manager.get('deepseek.api_key')
+                return self.config_manager.get('api.deepseek.key')
             elif model_type == ModelType.KIMI:
-                return self.config_manager.get('kimi.api_key')
+                return self.config_manager.get('api.kimi.key')
             else:
                 logger.error(f"不支持的模型类型: {model_type}")
                 return None
@@ -770,6 +790,47 @@ class TextProcessor:
         except Exception as e:
             logger.error(f"获取API密钥失败: {e}")
             return None
+    
+    def _get_base_url_for_model(self, model_type: ModelType) -> Optional[str]:
+        """
+        获取指定模型类型的API基础URL
+        
+        Args:
+            model_type: 模型类型
+            
+        Returns:
+            Optional[str]: API基础URL
+        """
+        try:
+            if model_type == ModelType.DEEPSEEK:
+                return self.config_manager.get('api.deepseek.base_url')
+            elif model_type == ModelType.KIMI:
+                return self.config_manager.get('api.kimi.base_url')
+            else:
+                logger.error(f"不支持的模型类型: {model_type}")
+                return None
+                
+        except Exception as e:
+            logger.error(f"获取API基础URL失败: {e}")
+            return None
+    
+    def _get_api_model_name(self, model_name: str) -> str:
+        """
+        获取API请求中使用的模型名称
+        
+        Args:
+            model_name: 原模型名称（可能是厂商,模型格式）
+            
+        Returns:
+            str: API请求中应使用的模型名称
+        """
+        # 检查是否是厂商,模型格式
+        if ',' in model_name and len(model_name.split(',')) == 2:
+            # 返回具体的模型名称
+            return model_name.split(',', 1)[1].strip()
+        else:
+            # 返回原模型名称
+            return model_name
     
     def process_with_ai_streaming(self, template_name: str, 
                                  output_callback: Optional[Callable[[str], None]] = None) -> Dict[str, Any]:
@@ -821,10 +882,14 @@ class TextProcessor:
                 result['error'] = f"无法创建模型客户端: {model_name}"
                 return result
             
-            # 4. 创建API请求
+            # 4. 确定API请求中使用的模型名称
+            # 如果是厂商,模型格式，使用具体模型名；否则使用原模型名
+            api_model_name = self._get_api_model_name(model_name)
+            
+            # 5. 创建API请求
             request = ModelRequest(
-                message=result['processed_content'],
-                model=model_name,
+                prompt=result['processed_content'],
+                model=api_model_name,
                 temperature=model_config.get('temperature', 0.7),
                 max_tokens=model_config.get('max_tokens', 2000),
                 stream=True
@@ -893,7 +958,9 @@ class TextProcessor:
             
             # 获取完整响应
             if result_buffer.error_occurred:
-                result['error'] = "流式响应过程中发生错误"
+                error_msg = result_buffer.error_message or '未知错误'
+                result['error'] = f"流式响应过程中发生错误: {error_msg}"
+                logger.error(f"流式响应错误详情: {error_msg}")
             else:
                 result['success'] = True
                 result['content'] = result_buffer.get_content()
@@ -1298,16 +1365,21 @@ class TextProcessor:
         Returns:
             str: 过滤后的文本
         """
-        try:
-            result = self.process_text_encoding(text)
-            if result['success']:
-                return result['processed_text']
-            else:
-                logger.warning(f"文本过滤失败，使用原文本: {result.get('error')}")
-                return text
-        except Exception as e:
-            logger.error(f"文本过滤异常: {e}")
-            return text
+        # 临时禁用文本过滤以解决空格丢失问题
+        logger.debug(f"跳过文本过滤，直接返回原文本: {repr(text[:50])}")
+        return text
+        
+        # 原过滤逻辑（已暂时禁用）
+        # try:
+        #     result = self.process_text_encoding(text)
+        #     if result['success']:
+        #         return result['processed_text']
+        #     else:
+        #         logger.warning(f"文本过滤失败，使用原文本: {result.get('error')}")
+        #         return text
+        # except Exception as e:
+        #     logger.error(f"文本过滤异常: {e}")
+        #     return text
     
     def validate_output_safety(self, text: str) -> Dict[str, Any]:
         """

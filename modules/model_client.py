@@ -139,6 +139,7 @@ class StreamChunk:
     # 元数据
     request_id: Optional[str] = None
     timestamp: Optional[float] = None
+    error_message: Optional[str] = None
     
     # 累积信息（仅在最后一个chunk中有效）
     total_tokens: Optional[int] = None
@@ -395,7 +396,8 @@ class ModelClient(ABC):
                 chunk_id=chunk_id,
                 is_final=True,
                 is_error=True,
-                request_id=request.request_id
+                request_id=request.request_id,
+                error_message=f"流式请求处理失败: {e}"
             )
             yield error_chunk
             
@@ -484,7 +486,8 @@ class ModelClient(ABC):
                 chunk_id=chunk_id,
                 is_final=True,
                 is_error=True,
-                request_id=request.request_id
+                request_id=request.request_id,
+                error_message=f"异步流式请求处理失败: {e}"
             )
             yield error_chunk
             
@@ -727,15 +730,21 @@ class DeepseekClient(ModelClient):
             max_retries: 最大重试次数
         """
         if base_url is None:
-            base_url = "https://api.deepseek.com/chat/completions"
+            base_url = "https://api.deepseek.com"
+            
+        # 确保URL以/chat/completions结尾（DeepSeek API端点）
+        if not base_url.endswith('/chat/completions'):
+            if base_url.endswith('/'):
+                base_url = base_url + 'chat/completions'
+            else:
+                base_url = base_url + '/chat/completions'
             
         super().__init__(api_key, base_url, timeout, max_retries)
         
         # Deepseek支持的模型列表
         self.supported_models = [
             "deepseek-chat",
-            "deepseek-coder",
-            "deepseek-math"
+            "deepseek-reasoner"
         ]
         
         # 模型参数限制
@@ -744,13 +753,9 @@ class DeepseekClient(ModelClient):
                 "max_tokens": 32768,
                 "context_length": 32768
             },
-            "deepseek-coder": {
-                "max_tokens": 16384,
-                "context_length": 16384
-            },
-            "deepseek-math": {
-                "max_tokens": 16384,
-                "context_length": 16384
+            "deepseek-reasoner": {
+                "max_tokens": 32768,
+                "context_length": 32768
             }
         }
     
@@ -762,12 +767,25 @@ class DeepseekClient(ModelClient):
         """获取支持的模型列表"""
         return self.supported_models.copy()
     
+    def _map_deepseek_model(self, model: str) -> str:
+        """将通用模型名映射到DeepSeek特定模型名"""
+        model_mapping = {
+            "deepseek": "deepseek-chat",  # 默认映射到chat模型
+            "deepseek-chat": "deepseek-chat",
+            "deepseek-reasoner": "deepseek-reasoner"
+        }
+        return model_mapping.get(model, model)
+    
     def validate_model(self, model: str) -> bool:
-        """验证模型名称是否支持"""
-        return model in self.supported_models
+        """验证模型名称是否支持（支持模型映射）"""
+        mapped_model = self._map_deepseek_model(model)
+        return mapped_model in self.supported_models
     
     def prepare_request(self, request: ModelRequest) -> Dict[str, Any]:
         """准备Deepseek API请求数据"""
+        
+        # 映射模型名
+        mapped_model = self._map_deepseek_model(request.model)
         
         # 构建消息格式
         messages = [
@@ -779,7 +797,7 @@ class DeepseekClient(ModelClient):
         
         # 基础请求数据
         request_data = {
-            "model": request.model,
+            "model": mapped_model,
             "messages": messages,
             "stream": request.stream,
         }
@@ -894,12 +912,14 @@ class DeepseekClient(ModelClient):
             # 检查错误
             if "error" in chunk_json:
                 error_info = chunk_json["error"]
+                error_message = error_info.get("message", "API返回错误") if isinstance(error_info, dict) else str(error_info)
                 return StreamChunk(
                     content="",
                     chunk_id=chunk_id,
                     is_final=True,
                     is_error=True,
-                    request_id=request.request_id
+                    request_id=request.request_id,
+                    error_message=error_message
                 )
             
             # 解析内容
@@ -1026,7 +1046,14 @@ class KimiClient(ModelClient):
             max_retries: 最大重试次数
         """
         if base_url is None:
-            base_url = "https://api.moonshot.cn/v1/chat/completions"
+            base_url = "https://api.moonshot.cn/v1"
+            
+        # 确保URL以/chat/completions结尾（Kimi API端点）
+        if not base_url.endswith('/chat/completions'):
+            if base_url.endswith('/'):
+                base_url = base_url + 'chat/completions'
+            else:
+                base_url = base_url + '/chat/completions'
             
         super().__init__(api_key, base_url, timeout, max_retries)
         
@@ -1209,12 +1236,14 @@ class KimiClient(ModelClient):
             # 检查错误
             if "error" in chunk_json:
                 error_info = chunk_json["error"]
+                error_message = error_info.get("message", "API返回错误") if isinstance(error_info, dict) else str(error_info)
                 return StreamChunk(
                     content="",
                     chunk_id=chunk_id,
                     is_final=True,
                     is_error=True,
-                    request_id=request.request_id
+                    request_id=request.request_id,
+                    error_message=error_message
                 )
             
             # 解析内容
@@ -1344,6 +1373,7 @@ class StreamBuffer:
         self.accumulated_content = ""
         self.is_complete = False
         self.error_occurred = False
+        self.error_message = None
         self.total_tokens = None
         
     def add_chunk(self, chunk: StreamChunk) -> bool:
@@ -1375,6 +1405,13 @@ class StreamBuffer:
         if chunk.is_error:
             self.error_occurred = True
             self.is_complete = True
+            # 尝试从chunk中获取错误信息
+            if hasattr(chunk, 'error_message') and chunk.error_message:
+                self.error_message = chunk.error_message
+            elif chunk.content:
+                self.error_message = chunk.content
+            else:
+                self.error_message = "流式响应中发生未知错误"
         
         # 清理旧数据以防止内存溢出
         if len(self.chunks) > self.max_size:
@@ -1400,6 +1437,7 @@ class StreamBuffer:
         self.accumulated_content = ""
         self.is_complete = False
         self.error_occurred = False
+        self.error_message = None
         self.total_tokens = None
     
     def to_response(self, model: str, request_id: Optional[str] = None) -> ModelResponse:
@@ -1501,7 +1539,8 @@ class StreamProcessor:
                 content="",
                 chunk_id=len(buffer.chunks),
                 is_final=True,
-                is_error=True
+                is_error=True,
+                error_message=f"流式处理失败: {e}"
             )
             buffer.add_chunk(error_chunk)
             self._trigger_event('stream_error', error_chunk)
@@ -1550,7 +1589,8 @@ class StreamProcessor:
                 content="",
                 chunk_id=len(buffer.chunks),
                 is_final=True,
-                is_error=True
+                is_error=True,
+                error_message=f"异步流式处理失败: {e}"
             )
             buffer.add_chunk(error_chunk)
             self._trigger_event('stream_error', error_chunk)
@@ -1656,7 +1696,8 @@ class StreamingManager:
                 chunk_id=0,
                 is_final=True,
                 is_error=True,
-                request_id=request_id
+                request_id=request_id,
+                error_message=f"客户端流式处理失败: {e}"
             )
             buffer.add_chunk(error_chunk)
             return buffer
@@ -1702,7 +1743,8 @@ class StreamingManager:
                 chunk_id=0,
                 is_final=True,
                 is_error=True,
-                request_id=request_id
+                request_id=request_id,
+                error_message=f"异步客户端流式处理失败: {e}"
             )
             buffer.add_chunk(error_chunk)
             return buffer

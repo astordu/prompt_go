@@ -8,7 +8,7 @@ import os
 import logging
 import yaml
 from pathlib import Path
-from typing import Dict, Any, Optional, List, Union
+from typing import Dict, Any, Optional, List, Union, Tuple
 from dataclasses import dataclass
 import re
 
@@ -42,6 +42,40 @@ class TemplateContent:
     def get_model_name(self) -> Optional[str]:
         """获取模型名称"""
         return self.model_config.get('model')
+    
+    def get_provider_name(self) -> Optional[str]:
+        """
+        获取厂商名称（如果是厂商,模型格式）
+        
+        Returns:
+            Optional[str]: 厂商名称，如果不是厂商,模型格式则返回None
+        """
+        model = self.get_model_name()
+        if model and ',' in model and len(model.split(',')) == 2:
+            return model.split(',', 1)[0].strip()
+        return None
+    
+    def get_specific_model_name(self) -> Optional[str]:
+        """
+        获取具体模型名称
+        
+        Returns:
+            Optional[str]: 如果是厂商,模型格式则返回具体模型名，否则返回原模型名
+        """
+        model = self.get_model_name()
+        if model and ',' in model and len(model.split(',')) == 2:
+            return model.split(',', 1)[1].strip()
+        return model
+    
+    def is_provider_model_format(self) -> bool:
+        """
+        检查是否使用厂商,模型格式
+        
+        Returns:
+            bool: 是否使用厂商,模型格式
+        """
+        model = self.get_model_name()
+        return model and ',' in model and len(model.split(',')) == 2
         
     def get_temperature(self) -> Optional[float]:
         """获取温度参数"""
@@ -384,18 +418,19 @@ class BasicTemplateParser:
         """
         template_info = self.scanner.get_template_list()
         return [info['name'] for info in template_info if info.get('is_supported', False)]
-        
+    
     def template_exists(self, template_name: str) -> bool:
         """
-        检查模板是否存在
+        检查指定的模板文件是否存在
         
         Args:
             template_name: 模板名称
             
         Returns:
-            bool: 模板是否存在
+            bool: 模板文件是否存在
         """
-        return self.scanner.find_template_by_name(template_name) is not None
+        template_path = self.scanner.find_template_by_name(template_name)
+        return template_path is not None
 
 
 class TemplateParser(BasicTemplateParser):
@@ -507,12 +542,24 @@ class TemplateParser(BasicTemplateParser):
         if not isinstance(model, str) or not model.strip():
             raise TemplateParsingError("model 配置项必须是非空字符串")
             
-        # 验证支持的模型
-        supported_models = ['deepseek', 'kimi']
-        if model not in supported_models:
-            raise TemplateParsingError(
-                f"不支持的模型: {model}，支持的模型: {', '.join(supported_models)}"
-            )
+        # 验证支持的模型（支持厂商,模型格式和简化格式）
+        if self._is_provider_model_format(model):
+            # 厂商,模型格式：如 "deepseek,deepseek-chat"
+            provider, specific_model = self._parse_provider_model(model)
+            if not self._validate_provider_model_combination(provider, specific_model):
+                raise TemplateParsingError(
+                    f"不支持的厂商和模型组合: {model}，请检查厂商和模型名称是否匹配"
+                )
+        else:
+            # 简化格式：如 "deepseek" 或 "deepseek-chat"
+            supported_models = [
+                'deepseek', 'deepseek-chat', 'deepseek-reasoner',  # DeepSeek系列
+                'kimi', 'moonshot-v1-8k', 'moonshot-v1-32k', 'moonshot-v1-128k'  # Kimi系列
+            ]
+            if model not in supported_models:
+                raise TemplateParsingError(
+                    f"不支持的模型: {model}，支持的模型: {', '.join(supported_models)} 或厂商,模型格式（如: deepseek,deepseek-chat）"
+                )
             
         # 验证可选的数值配置项
         numeric_fields = {
@@ -543,6 +590,57 @@ class TemplateParser(BasicTemplateParser):
                     raise TemplateParsingError(
                         f"{field} 配置项必须是 {expected_type.__name__} 类型: {value}"
                     )
+    
+    def _is_provider_model_format(self, model: str) -> bool:
+        """
+        检查是否是厂商,模型格式
+        
+        Args:
+            model: 模型字符串
+            
+        Returns:
+            bool: 是否是厂商,模型格式
+        """
+        return ',' in model and len(model.split(',')) == 2
+    
+    def _parse_provider_model(self, model: str) -> Tuple[str, str]:
+        """
+        解析厂商,模型格式
+        
+        Args:
+            model: 厂商,模型格式的字符串
+            
+        Returns:
+            tuple[str, str]: (厂商, 具体模型)
+        """
+        parts = model.split(',', 1)
+        provider = parts[0].strip()
+        specific_model = parts[1].strip()
+        return provider, specific_model
+    
+    def _validate_provider_model_combination(self, provider: str, specific_model: str) -> bool:
+        """
+        验证厂商和模型的组合是否有效
+        
+        Args:
+            provider: 厂商名称
+            specific_model: 具体模型名称
+            
+        Returns:
+            bool: 组合是否有效
+        """
+        # 定义厂商和对应的模型映射
+        provider_models = {
+            'deepseek': ['deepseek-chat', 'deepseek-reasoner'],
+            'kimi': ['moonshot-v1-8k', 'moonshot-v1-32k', 'moonshot-v1-128k']
+        }
+        
+        # 检查厂商是否支持
+        if provider not in provider_models:
+            return False
+            
+        # 检查模型是否属于该厂商
+        return specific_model in provider_models[provider]
                     
     def parse_template(self, template_name: str) -> TemplateContent:
         """

@@ -338,8 +338,7 @@ class PromptManager:
             )
             
             # 设置快捷键处理回调
-            # 注意：HotkeyListener已经有内置的模板处理机制
-            # self._setup_hotkey_callbacks()
+            self._setup_hotkey_callbacks()
             
             logger.info("所有组件初始化完成")
             return True
@@ -352,10 +351,10 @@ class PromptManager:
         """设置快捷键处理回调"""
         logger = logging.getLogger(__name__)
         
-        def hotkey_handler(template_name: str, hotkey: str):
+        def hotkey_handler(template_name: str):
             """处理快捷键触发事件"""
             try:
-                logger.info(f"快捷键 {hotkey} 触发，处理模板: {template_name}")
+                logger.info(f"处理模板: {template_name}")
                 self.processed_requests += 1
                 
                 # 执行完整的文本处理流程
@@ -373,7 +372,7 @@ class PromptManager:
         
         # 设置回调函数
         if self.hotkey_listener:
-            self.hotkey_listener.set_template_handler(hotkey_handler)
+            self.hotkey_listener.register_all_hotkeys(hotkey_handler)
     
     def start(self) -> bool:
         """
@@ -397,10 +396,13 @@ class PromptManager:
                 logger.error("组件未完全初始化，无法启动")
                 return False
             
-            # 启动快捷键监听器
-            if not self.hotkey_listener.start():
-                logger.error("快捷键监听器启动失败")
-                return False
+            # 启动快捷键监听器（如果尚未启动）
+            if not self.hotkey_listener.is_listening:
+                if not self.hotkey_listener.start_listening():
+                    logger.error("快捷键监听器启动失败")
+                    return False
+            else:
+                logger.info("快捷键监听器已在运行中")
             
             self.running = True
             self.start_time = time.time()
@@ -423,7 +425,7 @@ class PromptManager:
         
         try:
             if self.hotkey_listener:
-                mappings = self.hotkey_listener.get_current_mappings()
+                mappings = self.hotkey_listener.config_manager.get_all_mappings()
                 if mappings:
                     logger.info("当前快捷键映射:")
                     for hotkey, template in mappings.items():
@@ -446,7 +448,7 @@ class PromptManager:
             
             # 停止快捷键监听器
             if self.hotkey_listener:
-                self.hotkey_listener.stop()
+                self.hotkey_listener.stop_listening()
             
             # 清理资源
             if self.text_processor:
@@ -597,7 +599,7 @@ class PromptManager:
             # 1. 停止接收新请求
             logger.info("1. 停止快捷键监听...")
             if self.hotkey_listener:
-                self.hotkey_listener.stop()
+                self.hotkey_listener.stop_listening()
             
             # 2. 等待当前处理中的请求完成
             logger.info("2. 等待当前请求完成...")

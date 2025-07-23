@@ -22,3 +22,37 @@
 2025-07-23 13:47:49 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
 2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
 2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:51:31 - __main__ - ERROR - [main.py:348] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:51:31 - __main__ - ERROR - [main.py:745] - 初始化失败，程序退出
+2025-07-23 13:54:54 - __main__ - ERROR - [main.py:348] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:54:54 - __main__ - ERROR - [main.py:745] - 初始化失败，程序退出
+2025-07-23 13:59:35 - __main__ - ERROR - [main.py:348] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:59:35 - __main__ - ERROR - [main.py:745] - 初始化失败，程序退出
+2025-07-23 14:00:32 - __main__ - ERROR - [main.py:417] - 启动过程中发生异常: 'HotkeyListener' object has no attribute 'start'
+2025-07-23 14:00:32 - __main__ - ERROR - [main.py:751] - 启动失败，程序退出
+2025-07-23 14:03:17 - __main__ - ERROR - [main.py:569] - 创建PID文件失败: No module named 'psutil'
+2025-07-23 14:03:17 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:03:35 - __main__ - ERROR - [main.py:569] - 创建PID文件失败: No module named 'psutil'
+2025-07-23 14:03:35 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:03:47 - __main__ - ERROR - [main.py:569] - 创建PID文件失败: No module named 'psutil'
+2025-07-23 14:03:47 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:04:20 - __main__ - ERROR - [main.py:551] - 程序已在运行 (PID: 87310)
+2025-07-23 14:04:20 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:07:30 - __main__ - ERROR - [main.py:551] - 程序已在运行 (PID: 94708)
+2025-07-23 14:07:30 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:07:37 - __main__ - ERROR - [main.py:551] - 程序已在运行 (PID: 94708)
+2025-07-23 14:07:37 - __main__ - ERROR - [main.py:741] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:14:19 - __main__ - ERROR - [main.py:550] - 程序已在运行 (PID: 95501)
+2025-07-23 14:14:19 - __main__ - ERROR - [main.py:740] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:14:30 - __main__ - ERROR - [main.py:550] - 程序已在运行 (PID: 95501)
+2025-07-23 14:14:30 - __main__ - ERROR - [main.py:740] - PID文件创建失败，可能程序已在运行
+2025-07-23 14:15:10 - __main__ - ERROR - [main.py:401] - 快捷键监听器启动失败
+2025-07-23 14:15:10 - __main__ - ERROR - [main.py:750] - 启动失败，程序退出
+2025-07-23 14:15:42 - __main__ - ERROR - [main.py:401] - 快捷键监听器启动失败
+2025-07-23 14:15:42 - __main__ - ERROR - [main.py:750] - 启动失败，程序退出
+2025-07-23 14:18:12 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 14:22:28 - modules.text_processor - ERROR - [text_processor.py:874] - AI流式处理异常: ModelRequest.__init__() got an unexpected keyword argument 'message'
+2025-07-23 14:27:09 - modules.text_processor - ERROR - [text_processor.py:924] - 流式响应错误详情: 未知错误
+2025-07-23 14:32:49 - modules.text_processor - ERROR - [text_processor.py:924] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek
+2025-07-23 14:33:37 - modules.text_processor - ERROR - [text_processor.py:924] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek
+2025-07-23 14:53:43 - modules.text_processor - ERROR - [text_processor.py:963] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek-reasoner
