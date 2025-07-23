@@ -3188,3 +3188,599 @@
 2025-07-23 15:37:35 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
 2025-07-23 15:37:35 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
 2025-07-23 15:37:35 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 38078)
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:13:16 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:13:16 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:13:16 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:13:16 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:13:16 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1913] - 初始化macOS兼容性检查...
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1966] - ✅ 辅助功能权限已授予
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:2028] - ✅ 系统通知功能可用
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:2084] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:2108] - ✅ 未发现兼容性问题
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1927] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:13:16 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:13:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:13:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到application_conflicts冲突: ['ctrl+alt+cmd+2']
+2025-07-23 16:13:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到invalid_format冲突: ['ctrl+cmd+1']
+2025-07-23 16:13:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+cmd+1 -> grammar_check.md', 'ctrl+alt+cmd+2 -> translate.md']
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+2 -> ctrl+alt+cmd+1
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_161316
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:13:16 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1622] - 配置文件热重载监控已启动
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1308] - 状态文件不存在，跳过状态恢复
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+cmd+1
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+alt+cmd+2
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1348] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:13:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:2328] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:432] -   ctrl+cmd+1 -> grammar_check.md
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:432] -   ctrl+alt+cmd+2 -> translate.md
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:13:16 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:14:35 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:14:35 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:14:35 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:14:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1356] - 健康检查线程已停止
+2025-07-23 16:14:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:2383] - 全局快捷键监听器已停止
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:476] -   运行时长: 81.1 秒
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:477] -   处理请求数: 0
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-23 16:14:37 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 39679)
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:14:41 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:14:41 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:14:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:14:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:14:41 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1913] - 初始化macOS兼容性检查...
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1966] - ✅ 辅助功能权限已授予
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2028] - ✅ 系统通知功能可用
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2084] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2108] - ✅ 未发现兼容性问题
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1927] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:14:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:14:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:14:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到application_conflicts冲突: ['ctrl+alt+cmd+2']
+2025-07-23 16:14:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到invalid_format冲突: ['ctrl+shift+cmd+1']
+2025-07-23 16:14:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+shift+cmd+1 -> grammar_check.md', 'ctrl+alt+cmd+2 -> translate.md']
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+2 -> ctrl+alt+cmd+1
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_161441
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:14:41 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1622] - 配置文件热重载监控已启动
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1331] - 监听状态恢复完成
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+shift+cmd+1
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+alt+cmd+2
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1348] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:14:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2328] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:432] -   ctrl+shift+cmd+1 -> grammar_check.md
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:432] -   ctrl+alt+cmd+2 -> translate.md
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:14:41 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:20:32 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:20:32 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:20:32 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:20:34 - modules.hotkey_listener - INFO - [hotkey_listener.py:1356] - 健康检查线程已停止
+2025-07-23 16:20:34 - modules.hotkey_listener - INFO - [hotkey_listener.py:2383] - 全局快捷键监听器已停止
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:476] -   运行时长: 352.9 秒
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:477] -   处理请求数: 0
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-23 16:20:34 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 46218)
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:20:36 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:20:36 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:20:36 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:20:36 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:20:36 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1913] - 初始化macOS兼容性检查...
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1966] - ✅ 辅助功能权限已授予
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:2028] - ✅ 系统通知功能可用
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:2084] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:2108] - ✅ 未发现兼容性问题
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1927] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:20:36 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:20:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:20:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到application_conflicts冲突: ['ctrl+alt+cmd+2']
+2025-07-23 16:20:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到invalid_format冲突: ['ctrl+1']
+2025-07-23 16:20:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+1 -> grammar_check.md', 'ctrl+alt+cmd+2 -> translate.md']
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+2 -> ctrl+alt+cmd+1
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_162036
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:20:36 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1622] - 配置文件热重载监控已启动
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1331] - 监听状态恢复完成
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+1
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1195] - 注册快捷键处理函数: ctrl+alt+cmd+2
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:1348] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:20:36 - modules.hotkey_listener - INFO - [hotkey_listener.py:2328] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:432] -   ctrl+alt+cmd+2 -> translate.md
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:20:36 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:23:25 - __main__ - INFO - [main.py:667] - 接收到重载信号 1，重新加载配置...
+2025-07-23 16:23:25 - __main__ - INFO - [main.py:490] - 重新加载配置...
+2025-07-23 16:23:25 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:23:25 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1884] - 手动重新加载快捷键配置
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1653] - 检测到配置文件变化，开始热重载...
+2025-07-23 16:23:25 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1220] - 取消注册快捷键处理函数: ctrl+1
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1777] - 移除快捷键处理函数: ctrl+1
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1783] - 配置变化应用完成: 新增 1 个，删除 1 个，修改 0 个
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:23:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:23:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到application_conflicts冲突: ['ctrl+alt+cmd+1', 'ctrl+alt+cmd+2']
+2025-07-23 16:23:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+alt+cmd+1 -> grammar_check.md', 'ctrl+alt+cmd+2 -> translate.md']
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+1 -> ctrl+alt+cmd+3
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+2 -> ctrl+alt+cmd+4
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_162325
+2025-07-23 16:23:25 - modules.hotkey_listener - INFO - [hotkey_listener.py:1702] - 配置热重载成功完成，耗时 0.01 秒
+2025-07-23 16:23:25 - __main__ - INFO - [main.py:501] - 配置重新加载完成
+2025-07-23 16:24:19 - __main__ - INFO - [main.py:667] - 接收到重载信号 1，重新加载配置...
+2025-07-23 16:24:19 - __main__ - INFO - [main.py:490] - 重新加载配置...
+2025-07-23 16:24:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:24:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1884] - 手动重新加载快捷键配置
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1653] - 检测到配置文件变化，开始热重载...
+2025-07-23 16:24:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1777] - 移除快捷键处理函数: ctrl+alt+cmd+1
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1220] - 取消注册快捷键处理函数: ctrl+alt+cmd+2
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1777] - 移除快捷键处理函数: ctrl+alt+cmd+2
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1783] - 配置变化应用完成: 新增 2 个，删除 2 个，修改 0 个
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:24:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:24:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到application_conflicts冲突: ['ctrl+alt+cmd+3', 'ctrl+alt+cmd+4']
+2025-07-23 16:24:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+alt+cmd+3 -> grammar_check.md', 'ctrl+alt+cmd+4 -> translate.md']
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+3 -> ctrl+alt+cmd+1
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:208] -   application_conflicts: ctrl+alt+cmd+4 -> ctrl+alt+cmd+2
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_162419
+2025-07-23 16:24:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1702] - 配置热重载成功完成，耗时 0.00 秒
+2025-07-23 16:24:19 - __main__ - INFO - [main.py:501] - 配置重新加载完成
+2025-07-23 16:28:37 - __main__ - INFO - [main.py:667] - 接收到重载信号 1，重新加载配置...
+2025-07-23 16:28:37 - __main__ - INFO - [main.py:490] - 重新加载配置...
+2025-07-23 16:28:37 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:28:37 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1884] - 手动重新加载快捷键配置
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1653] - 检测到配置文件变化，开始热重载...
+2025-07-23 16:28:37 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1777] - 移除快捷键处理函数: ctrl+alt+cmd+3
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1777] - 移除快捷键处理函数: ctrl+alt+cmd+4
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1783] - 配置变化应用完成: 新增 2 个，删除 2 个，修改 0 个
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:28:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:187] - 快捷键配置验证失败，健康度评分: 4.4
+2025-07-23 16:28:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:196] - 检测到invalid_format冲突: ['ctrl+1', 'ctrl+2']
+2025-07-23 16:28:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:201] - 模板invalid_format: ['ctrl+1 -> grammar_check.md', 'ctrl+2 -> translate.md']
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:205] - 可用的冲突解决方案:
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1051] - 配置备份已创建: config/hotkey_mapping.yaml.backup_20250723_162837
+2025-07-23 16:28:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1702] - 配置热重载成功完成，耗时 0.00 秒
+2025-07-23 16:28:37 - __main__ - INFO - [main.py:501] - 配置重新加载完成
+2025-07-23 16:28:43 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:28:43 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:28:43 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:28:45 - modules.hotkey_listener - INFO - [hotkey_listener.py:1356] - 健康检查线程已停止
+2025-07-23 16:28:45 - modules.hotkey_listener - INFO - [hotkey_listener.py:2383] - 全局快捷键监听器已停止
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:476] -   运行时长: 489.3 秒
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:477] -   处理请求数: 0
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-23 16:28:45 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 57645)
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:29:05 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:29:05 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:29:05 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:29:05 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:29:05 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2040] - 初始化macOS兼容性检查...
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2093] - ✅ 辅助功能权限已授予
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2155] - ✅ 系统通知功能可用
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2211] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2235] - ✅ 未发现兼容性问题
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2054] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:29:05 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:216] - 快捷键配置验证通过，健康度评分: 54.4
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:29:05 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:1749] - 配置文件热重载监控已启动
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:1458] - 监听状态恢复完成
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+1
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+2
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:1475] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:29:05 - modules.hotkey_listener - INFO - [hotkey_listener.py:2455] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:432] -   ctrl+2 -> translate.md
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:29:05 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:29:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:29:14 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-23 16:29:14 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-23 16:29:14 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-23 16:29:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:29:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:29:14 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 grammar_check.md，文本长度: 8
+2025-07-23 16:29:14 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:29:33 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:29:34 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-23 16:29:34 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-23 16:29:34 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-23 16:29:34 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:29:34 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:29:34 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 grammar_check.md，文本长度: 8
+2025-07-23 16:29:42 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+句
+2025-07-23 16:29:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+贷
+2025-07-23 16:30:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+x
+2025-07-23 16:30:06 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+常
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:30:06 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:30:07 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:30:07 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:30:07 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:30:09 - modules.hotkey_listener - INFO - [hotkey_listener.py:1483] - 健康检查线程已停止
+2025-07-23 16:30:09 - modules.hotkey_listener - INFO - [hotkey_listener.py:2510] - 全局快捷键监听器已停止
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:476] -   运行时长: 63.4 秒
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:477] -   处理请求数: 2
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:481] -   成功率: 100.0%
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-23 16:30:09 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 60540)
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:31:11 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:31:11 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:31:11 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:31:11 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:31:11 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2040] - 初始化macOS兼容性检查...
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2093] - ✅ 辅助功能权限已授予
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2155] - ✅ 系统通知功能可用
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2211] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2235] - ✅ 未发现兼容性问题
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2054] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:31:11 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 2 个快捷键
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:216] - 快捷键配置验证通过，健康度评分: 54.4
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:31:11 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1749] - 配置文件热重载监控已启动
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1458] - 监听状态恢复完成
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+1
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+2
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1475] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:31:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:2455] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:432] -   ctrl+2 -> translate.md
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:31:11 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:31:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:31:13 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:31:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-23 16:31:19 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-23 16:31:19 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-23 16:31:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:31:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:31:19 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 grammar_check.md，文本长度: 2
+2025-07-23 16:31:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:32:15 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: grammar_check.md, 响应时间: 56.15s
+2025-07-23 16:32:15 - __main__ - INFO - [main.py:364] - 模板处理成功: grammar_check.md
+2025-07-23 16:32:24 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+c
+2025-07-23 16:32:26 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+c
+2025-07-23 16:32:29 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:32:30 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:32:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+z
+2025-07-23 16:32:35 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:32:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:32:47 - modules.hotkey_listener - INFO - [hotkey_listener.py:49] - 检测到模板文件变化: /Users/dulei/Documents/project/prompt_go/prompt/grammar_check.md
+2025-07-23 16:32:47 - modules.hotkey_listener - INFO - [hotkey_listener.py:355] - 更新模板映射...
+2025-07-23 16:32:47 - modules.template_parser - INFO - [template_parser.py:316] - 在 prompt 中发现 4 个模板文件
+2025-07-23 16:32:47 - modules.hotkey_listener - INFO - [hotkey_listener.py:367] - 发现可自动映射的模板: {'ctrl+alt+cmd+1': 'README.md', 'ctrl+alt+cmd+2': 'summarize.md'}
+2025-07-23 16:32:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-23 16:32:52 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:32:54 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-23 16:32:54 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-23 16:32:54 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-23 16:32:54 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:32:54 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:32:54 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 grammar_check.md，文本长度: 2
+2025-07-23 16:32:54 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:33:07 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: grammar_check.md, 响应时间: 13.30s
+2025-07-23 16:33:07 - __main__ - INFO - [main.py:364] - 模板处理成功: grammar_check.md
+2025-07-23 16:33:10 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:33:22 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-23 16:33:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:33:46 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+3
+2025-07-23 16:34:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-23 16:34:11 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+2 -> translate.md
+2025-07-23 16:34:11 - __main__ - INFO - [main.py:357] - 处理模板: translate.md
+2025-07-23 16:34:11 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: translate.md
+2025-07-23 16:34:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:34:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:34:11 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 translate.md，文本长度: 14
+2025-07-23 16:34:16 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: translate.md, 响应时间: 4.84s
+2025-07-23 16:34:16 - __main__ - INFO - [main.py:364] - 模板处理成功: translate.md
+2025-07-23 16:34:18 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+z
+2025-07-23 16:34:31 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+2 -> translate.md
+2025-07-23 16:34:31 - __main__ - INFO - [main.py:357] - 处理模板: translate.md
+2025-07-23 16:34:31 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: translate.md
+2025-07-23 16:34:32 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:34:32 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:34:32 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 translate.md，文本长度: 14
+2025-07-23 16:34:36 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: translate.md, 响应时间: 4.57s
+2025-07-23 16:34:36 - __main__ - INFO - [main.py:364] - 模板处理成功: translate.md
+2025-07-23 16:35:00 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:35:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+n
+2025-07-23 16:35:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+_
+2025-07-23 16:35:58 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:35:58 - modules.hotkey_listener - INFO - [hotkey_listener.py:49] - 检测到模板文件变化: /Users/dulei/Documents/project/prompt_go/prompt/grammar_check copy.md
+2025-07-23 16:35:58 - modules.hotkey_listener - INFO - [hotkey_listener.py:355] - 更新模板映射...
+2025-07-23 16:35:58 - modules.template_parser - INFO - [template_parser.py:316] - 在 prompt 中发现 5 个模板文件
+2025-07-23 16:35:58 - modules.hotkey_listener - INFO - [hotkey_listener.py:367] - 发现可自动映射的模板: {'ctrl+alt+cmd+1': 'README.md', 'ctrl+alt+cmd+2': 'grammar_check copy.md', 'ctrl+alt+cmd+3': 'summarize.md'}
+2025-07-23 16:36:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+_
+2025-07-23 16:36:07 - modules.hotkey_listener - INFO - [hotkey_listener.py:49] - 检测到模板文件变化: /Users/dulei/Documents/project/prompt_go/prompt/grammar_check copy.md
+2025-07-23 16:36:07 - modules.hotkey_listener - INFO - [hotkey_listener.py:355] - 更新模板映射...
+2025-07-23 16:36:07 - modules.template_parser - INFO - [template_parser.py:316] - 在 prompt 中发现 5 个模板文件
+2025-07-23 16:36:07 - modules.hotkey_listener - INFO - [hotkey_listener.py:367] - 发现可自动映射的模板: {'ctrl+alt+cmd+1': 'README.md', 'ctrl+alt+cmd+2': 'summarize.md', 'ctrl+alt+cmd+3': 'tidy_txt.md'}
+2025-07-23 16:36:38 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+shift+up
+2025-07-23 16:36:39 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:36:39 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:36:43 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+：
+2025-07-23 16:36:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:36:50 - modules.hotkey_listener - INFO - [hotkey_listener.py:49] - 检测到模板文件变化: /Users/dulei/Documents/project/prompt_go/prompt/tidy_txt.md
+2025-07-23 16:36:50 - modules.hotkey_listener - INFO - [hotkey_listener.py:355] - 更新模板映射...
+2025-07-23 16:36:50 - modules.template_parser - INFO - [template_parser.py:316] - 在 prompt 中发现 5 个模板文件
+2025-07-23 16:36:50 - modules.hotkey_listener - INFO - [hotkey_listener.py:367] - 发现可自动映射的模板: {'ctrl+alt+cmd+1': 'README.md', 'ctrl+alt+cmd+2': 'summarize.md', 'ctrl+alt+cmd+3': 'tidy_txt.md'}
+2025-07-23 16:36:59 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:36:59 - modules.hotkey_listener - INFO - [hotkey_listener.py:49] - 检测到模板文件变化: /Users/dulei/Documents/project/prompt_go/prompt/tidy_txt.md
+2025-07-23 16:36:59 - modules.hotkey_listener - INFO - [hotkey_listener.py:355] - 更新模板映射...
+2025-07-23 16:36:59 - modules.template_parser - INFO - [template_parser.py:316] - 在 prompt 中发现 5 个模板文件
+2025-07-23 16:36:59 - modules.hotkey_listener - INFO - [hotkey_listener.py:367] - 发现可自动映射的模板: {'ctrl+alt+cmd+1': 'README.md', 'ctrl+alt+cmd+2': 'summarize.md', 'ctrl+alt+cmd+3': 'tidy_content.md'}
+2025-07-23 16:37:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift++
+2025-07-23 16:37:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+:
+2025-07-23 16:37:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:37:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+c
+2025-07-23 16:37:14 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-23 16:37:14 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-23 16:37:14 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-23 16:37:16 - modules.hotkey_listener - INFO - [hotkey_listener.py:1483] - 健康检查线程已停止
+2025-07-23 16:37:17 - modules.hotkey_listener - INFO - [hotkey_listener.py:2510] - 全局快捷键监听器已停止
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:476] -   运行时长: 365.7 秒
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:477] -   处理请求数: 4
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:481] -   成功率: 100.0%
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-23 16:37:17 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 67857)
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 16:37:19 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 16:37:19 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 16:37:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:37:19 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 16:37:19 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 16:37:19 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 16:37:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:2040] - 初始化macOS兼容性检查...
+2025-07-23 16:37:19 - modules.hotkey_listener - INFO - [hotkey_listener.py:2093] - ✅ 辅助功能权限已授予
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:2155] - ✅ 系统通知功能可用
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:2211] - ✅ macOS版本支持现代权限管理
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:2235] - ✅ 未发现兼容性问题
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:2054] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-23 16:37:20 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:180] - 加载快捷键映射: 3 个快捷键
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:216] - 快捷键配置验证通过，健康度评分: 56.7
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:335] - 启动模板目录监控: prompt
+2025-07-23 16:37:20 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1749] - 配置文件热重载监控已启动
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1458] - 监听状态恢复完成
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+1
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+2
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1309] - 注册快捷键处理函数: ctrl+3
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:1475] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-23 16:37:20 - modules.hotkey_listener - INFO - [hotkey_listener.py:2455] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:432] -   ctrl+2 -> translate.md
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:432] -   ctrl+3 -> tidy_content.md
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-23 16:37:20 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-23 16:37:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+space
+2025-07-23 16:37:38 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+cmd+v
+2025-07-23 16:37:57 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:38:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:38:07 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:38:09 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+3 -> tidy_content.md
+2025-07-23 16:38:09 - __main__ - INFO - [main.py:357] - 处理模板: tidy_content.md
+2025-07-23 16:38:09 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: tidy_content.md
+2025-07-23 16:38:09 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:38:09 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:38:09 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 tidy_content.md，文本长度: 94
+2025-07-23 16:38:09 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-23 16:38:15 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: tidy_content.md, 响应时间: 6.09s
+2025-07-23 16:38:15 - __main__ - INFO - [main.py:364] - 模板处理成功: tidy_content.md
+2025-07-23 16:38:22 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:38:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+cmd+v
+2025-07-23 16:39:02 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:39:03 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:39:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:39:06 - modules.hotkey_listener - INFO - [hotkey_listener.py:1611] - 触发快捷键: ctrl+3 -> tidy_content.md
+2025-07-23 16:39:06 - __main__ - INFO - [main.py:357] - 处理模板: tidy_content.md
+2025-07-23 16:39:06 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: tidy_content.md
+2025-07-23 16:39:06 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:39:06 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:39:06 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 tidy_content.md，文本长度: 65
+2025-07-23 16:39:12 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: tidy_content.md, 响应时间: 5.99s
+2025-07-23 16:39:12 - __main__ - INFO - [main.py:364] - 模板处理成功: tidy_content.md
+2025-07-23 16:39:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+~
+2025-07-23 16:40:55 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:41:52 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:42:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+r
+2025-07-23 16:44:51 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+*
+2025-07-23 16:45:06 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+left
+2025-07-23 16:45:10 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+right
+2025-07-23 16:45:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+cmd+ctrl+right
+2025-07-23 16:46:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+?
+2025-07-23 16:46:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+@
+2025-07-23 16:47:46 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:47:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-23 16:47:51 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:47:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+*
+2025-07-23 16:47:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:47:56 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+x
+2025-07-23 16:48:07 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:48:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:48:24 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-23 16:48:26 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:48:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+*
+2025-07-23 16:48:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:48:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-23 16:48:48 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:48:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+enter
+2025-07-23 16:48:58 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+@
+2025-07-23 16:50:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+s
+2025-07-23 16:50:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+shift+left
+2025-07-23 16:50:09 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-23 16:50:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-23 16:50:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-23 16:50:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v

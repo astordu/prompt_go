@@ -410,12 +410,42 @@ class HotkeyListener:
     
     def get_available_hotkeys(self) -> List[str]:
         """
-        获取可用的快捷键列表
+        获取可用的快捷键列表（提供常用快捷键建议）
         
         Returns:
             List[str]: 可用快捷键列表
         """
-        return [f"ctrl+alt+cmd+{i}" for i in range(1, 10)]
+        # 常用的快捷键模式建议
+        common_patterns = [
+            # 经典格式 (向后兼容)
+            *[f"ctrl+alt+cmd+{i}" for i in range(1, 10)],
+            # 简化格式
+            *[f"ctrl+{i}" for i in range(1, 10)],
+            *[f"alt+{i}" for i in range(1, 10)],
+            *[f"cmd+{i}" for i in range(1, 10)],
+            # 双修饰键格式
+            *[f"ctrl+alt+{i}" for i in range(1, 10)],
+            *[f"ctrl+cmd+{i}" for i in range(1, 10)],
+            *[f"alt+cmd+{i}" for i in range(1, 10)],
+            # 字母键组合
+            *[f"ctrl+{c}" for c in 'abcdefghijklmnopqrstuvwxyz'],
+            *[f"alt+{c}" for c in 'abcdefghijklmnopqrstuvwxyz'],
+            *[f"cmd+{c}" for c in 'abcdefghijklmnopqrstuvwxyz'],
+            # 功能键
+            *[f"ctrl+f{i}" for i in range(1, 13)],
+            *[f"alt+f{i}" for i in range(1, 13)],
+            *[f"cmd+f{i}" for i in range(1, 13)],
+        ]
+        
+        # 获取当前已使用的快捷键
+        current_mappings = self.config_manager.get_all_mappings()
+        used_hotkeys = set(current_mappings.keys())
+        
+        # 过滤掉已使用的快捷键
+        available = [hk for hk in common_patterns if hk not in used_hotkeys]
+        
+        # 返回前50个建议（避免列表过长）
+        return available[:50]
     
     def add_dynamic_mapping(self, hotkey: str, template: str, validate: bool = True) -> bool:
         """
@@ -642,7 +672,7 @@ class HotkeyListener:
     
     def _is_valid_hotkey_format(self, hotkey: str) -> bool:
         """
-        验证快捷键格式是否有效
+        验证快捷键格式是否有效（支持灵活配置）
         
         Args:
             hotkey: 快捷键字符串
@@ -653,19 +683,37 @@ class HotkeyListener:
         try:
             parts = hotkey.lower().split('+')
             
-            # 必须包含修饰键和数字键
-            if len(parts) != 4:
+            # 至少需要2个部分（修饰键+主键）
+            if len(parts) < 2:
                 return False
-                
-            # 检查修饰键
-            required_modifiers = {'ctrl', 'alt', 'cmd'}
-            modifier_parts = set(parts[:3])
-            if not required_modifiers.issubset(modifier_parts):
-                return False
-                
-            # 检查数字键
-            number_part = parts[3]
-            if not (number_part.isdigit() and number_part in '123456789'):
+            
+            # 支持的修饰键
+            valid_modifiers = {
+                'ctrl', 'control', 'ctl',
+                'alt', 'option', 'opt', 
+                'cmd', 'command', 'win', 'super',
+                'shift'
+            }
+            
+            # 支持的主键（字母、数字、功能键等）
+            valid_main_keys = set('abcdefghijklmnopqrstuvwxyz0123456789')
+            valid_main_keys.update([f'f{i}' for i in range(1, 25)])  # F1-F24
+            valid_main_keys.update(['space', 'tab', 'enter', 'return', 'esc', 'escape',
+                                  'up', 'down', 'left', 'right', 'home', 'end', 
+                                  'pageup', 'pagedown', 'insert', 'delete', 'backspace'])
+            
+            # 检查修饰键（除了最后一个部分）
+            modifier_parts = parts[:-1]
+            for modifier in modifier_parts:
+                if modifier not in valid_modifiers:
+                    return False
+            
+            # 检查主键（最后一个部分）
+            main_key = parts[-1]
+            if main_key not in valid_main_keys:
+                # 如果不在预定义列表中，检查是否是单个字符或数字
+                if len(main_key) == 1 and (main_key.isalnum() or main_key in '`-=[]\\;\',./'):
+                    return True
                 return False
                 
             return True
@@ -675,7 +723,7 @@ class HotkeyListener:
     
     def _is_application_conflict(self, normalized_hotkey: str) -> bool:
         """
-        检查是否与常见应用快捷键冲突
+        检查是否与常见应用快捷键冲突（支持灵活格式）
         
         Args:
             normalized_hotkey: 标准化的快捷键字符串
@@ -684,18 +732,44 @@ class HotkeyListener:
             bool: 是否存在应用冲突
         """
         # 常见应用快捷键模式
-        common_app_shortcuts = [
-            'cmd+c', 'cmd+v', 'cmd+x', 'cmd+z', 'cmd+y',  # 基本编辑
-            'cmd+s', 'cmd+o', 'cmd+n', 'cmd+w', 'cmd+q',  # 文件操作
-            'cmd+f', 'cmd+g', 'cmd+r', 'cmd+t',           # 查找和刷新
-            'alt+tab', 'ctrl+tab',                        # 切换操作
-        ]
+        common_app_shortcuts = {
+            # 基本编辑操作
+            'cmd+c', 'cmd+v', 'cmd+x', 'cmd+z', 'cmd+y', 'cmd+a', 'cmd+s',
+            'ctrl+c', 'ctrl+v', 'ctrl+x', 'ctrl+z', 'ctrl+y', 'ctrl+a', 'ctrl+s',
+            # 文件操作
+            'cmd+o', 'cmd+n', 'cmd+w', 'cmd+q', 'cmd+r', 'cmd+t',
+            'ctrl+o', 'ctrl+n', 'ctrl+w', 'ctrl+q', 'ctrl+r', 'ctrl+t',
+            # 查找和导航
+            'cmd+f', 'cmd+g', 'cmd+h', 'cmd+l', 'cmd+k',
+            'ctrl+f', 'ctrl+g', 'ctrl+h', 'ctrl+l', 'ctrl+k',
+            # 切换操作
+            'alt+tab', 'cmd+tab', 'ctrl+tab',
+            # 开发工具常用
+            'cmd+d', 'cmd+e', 'cmd+b', 'cmd+i', 'cmd+j', 'cmd+p',
+            'ctrl+d', 'ctrl+e', 'ctrl+b', 'ctrl+i', 'ctrl+j', 'ctrl+p',
+            # 浏览器常用
+            'cmd+shift+r', 'cmd+shift+t', 'cmd+shift+n', 'cmd+shift+p',
+            'ctrl+shift+r', 'ctrl+shift+t', 'ctrl+shift+n', 'ctrl+shift+p'
+        }
         
-        # 检查部分匹配
-        for app_shortcut in common_app_shortcuts:
-            if app_shortcut in normalized_hotkey or normalized_hotkey in app_shortcut:
-                return True
-                
+        # 直接匹配
+        if normalized_hotkey in common_app_shortcuts:
+            return True
+            
+        # 检查是否与常用单修饰键+字母的组合冲突
+        # 这些通常被应用程序广泛使用
+        parts = normalized_hotkey.split('+')
+        if len(parts) == 2:
+            modifier, key = parts
+            # 单个修饰键 + 字母键的组合通常有应用冲突风险
+            if modifier in ['cmd', 'ctrl'] and len(key) == 1 and key.isalpha():
+                # 一些例外的安全组合
+                safe_combinations = {
+                    'cmd+u', 'cmd+m', 'ctrl+u', 'ctrl+m',  # 相对不常用
+                }
+                if normalized_hotkey not in safe_combinations:
+                    return True
+                    
         return False
     
     def resolve_conflicts(self, conflicts: Dict[str, List[str]]) -> Dict[str, Dict[str, str]]:
@@ -783,16 +857,12 @@ class HotkeyListener:
     
     def _get_available_hotkeys(self) -> List[str]:
         """
-        获取当前可用的快捷键列表
+        获取当前可用的快捷键列表（内部使用）
         
         Returns:
             List[str]: 可用快捷键列表
         """
-        all_possible = [f"ctrl+alt+cmd+{i}" for i in range(1, 10)]
-        current_mappings = self.config_manager.get_all_mappings()
-        used_hotkeys = set(current_mappings.keys())
-        
-        return [hk for hk in all_possible if hk not in used_hotkeys]
+        return self.get_available_hotkeys()
     
     def validate_hotkey_configuration(self) -> Dict[str, Any]:
         """
@@ -1109,7 +1179,7 @@ class HotkeyListener:
     
     def _normalize_hotkey(self, keys: set) -> Optional[str]:
         """
-        将按键集合标准化为快捷键字符串
+        将按键集合标准化为快捷键字符串（支持灵活配置）
         
         Args:
             keys: 当前按下的按键集合
@@ -1127,32 +1197,76 @@ class HotkeyListener:
                     normalized_keys.add(key)
             keys = normalized_keys
         
-        # 检查是否包含必需的修饰键: ctrl + alt + cmd
-        has_ctrl = any(key in keys for key in [Key.ctrl_l, Key.ctrl_r, Key.ctrl])
-        has_alt = any(key in keys for key in [Key.alt_l, Key.alt_r, Key.alt]) 
-        has_cmd = any(key in keys for key in [Key.cmd, Key.cmd_r])
+        # 识别修饰键
+        modifiers = []
+        if any(key in keys for key in [Key.ctrl_l, Key.ctrl_r, Key.ctrl]):
+            modifiers.append('ctrl')
+        if any(key in keys for key in [Key.alt_l, Key.alt_r, Key.alt]):
+            modifiers.append('alt') 
+        if any(key in keys for key in [Key.cmd, Key.cmd_r]):
+            modifiers.append('cmd')
+        if any(key in keys for key in [Key.shift, Key.shift_l, Key.shift_r]):
+            modifiers.append('shift')
         
-        if not (has_ctrl and has_alt and has_cmd):
-            return None
-            
-        # 检查数字键 1-9
-        number_key = None
+        # 识别主键
+        main_key = None
+        
         for key in keys:
-            if hasattr(key, 'char') and key.char and key.char.isdigit():
-                if key.char in '123456789':
-                    number_key = key.char
+            # 跳过修饰键
+            if key in [Key.ctrl_l, Key.ctrl_r, Key.ctrl, Key.alt_l, Key.alt_r, Key.alt,
+                      Key.cmd, Key.cmd_r, Key.shift, Key.shift_l, Key.shift_r]:
+                continue
+                
+            # 处理字符键
+            if hasattr(key, 'char') and key.char:
+                if key.char.isprintable():
+                    main_key = key.char.lower()
                     break
-            # 处理KeyCode类型的数字键
-            elif hasattr(key, 'vk') and key.vk:
-                # macOS数字键的virtual key codes (49-57对应1-9)
-                if 49 <= key.vk <= 57:
-                    number_key = str(key.vk - 48)
+            
+            # 处理特殊键
+            elif hasattr(key, 'name'):
+                key_name = key.name.lower()
+                main_key = key_name
+                break
+                
+            # 处理KeyCode类型的键
+            elif hasattr(key, 'vk'):
+                # macOS键盘虚拟键码映射
+                vk_mapping = {
+                    # 数字键 1-9,0
+                    18: '1', 19: '2', 20: '3', 21: '4', 23: '5',
+                    22: '6', 26: '7', 28: '8', 25: '9', 29: '0',
+                    # 字母键 A-Z  
+                    0: 'a', 11: 'b', 8: 'c', 2: 'd', 14: 'e',
+                    3: 'f', 5: 'g', 4: 'h', 34: 'i', 38: 'j',
+                    40: 'k', 37: 'l', 46: 'm', 45: 'n', 31: 'o',
+                    35: 'p', 12: 'q', 15: 'r', 1: 's', 17: 't',
+                    32: 'u', 9: 'v', 13: 'w', 7: 'x', 16: 'y', 6: 'z',
+                    # 功能键
+                    122: 'f1', 120: 'f2', 99: 'f3', 118: 'f4', 96: 'f5',
+                    97: 'f6', 98: 'f7', 100: 'f8', 101: 'f9', 109: 'f10',
+                    103: 'f11', 111: 'f12',
+                    # 特殊键
+                    49: 'space', 48: 'tab', 36: 'enter', 53: 'esc',
+                    51: 'backspace', 117: 'delete', 126: 'up', 125: 'down',
+                    123: 'left', 124: 'right', 115: 'home', 119: 'end'
+                }
+                
+                if key.vk in vk_mapping:
+                    main_key = vk_mapping[key.vk]
                     break
         
-        if not number_key:
+        # 如果没有找到主键，返回None
+        if not main_key:
             return None
             
-        return f"ctrl+alt+cmd+{number_key}"
+        # 如果没有修饰键，也返回None（避免单独的主键触发）
+        if not modifiers:
+            return None
+            
+        # 构建快捷键字符串
+        modifiers.sort()  # 确保一致的顺序
+        return '+'.join(modifiers + [main_key])
     
     def _on_press(self, key):
         """按键按下事件处理"""
@@ -1258,12 +1372,25 @@ class HotkeyListener:
     
     def get_supported_hotkeys(self) -> Set[str]:
         """
-        获取支持的快捷键列表
+        获取支持的快捷键列表（从配置中动态获取）
         
         Returns:
             支持的快捷键集合
         """
-        return {f"ctrl+alt+cmd+{i}" for i in range(1, 10)}
+        # 从配置文件中获取当前配置的快捷键
+        current_mappings = self.config_manager.get_all_mappings()
+        
+        # 返回所有有效的快捷键（通过格式验证的）
+        supported_hotkeys = set()
+        for hotkey in current_mappings.keys():
+            if self._is_valid_hotkey_format(hotkey):
+                supported_hotkeys.add(hotkey)
+        
+        # 如果没有有效的快捷键，返回默认的经典格式作为后备
+        if not supported_hotkeys:
+            return {f"ctrl+alt+cmd+{i}" for i in range(1, 10)}
+            
+        return supported_hotkeys
     
 
     

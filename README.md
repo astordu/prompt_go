@@ -150,24 +150,40 @@ performance:
 
 ### ⌨️ 快捷键配置
 
+> **2024.07 新特性：支持任意自定义快捷键格式！**
+>
+> 你可以自由设置如 `ctrl+1`、`alt+shift+q`、`cmd+f5`、`ctrl+alt+z`、`ctrl+shift+space` 等组合，无需再局限于 `ctrl+alt+cmd+数字`。
+>
+> - 支持多修饰键（ctrl/alt/cmd/shift）+任意主键（字母、数字、F1-F24、特殊键等）
+> - 自动检测冲突和格式错误
+> - 配置修改后**无需重启**，热重载立即生效
+
 <details>
-<summary>点击展开快捷键配置示例</summary>
+<summary>自定义快捷键配置示例</summary>
 
 ```yaml
 # config/hotkey_mapping.yaml
-hotkey_mappings:
-  'ctrl+alt+cmd+1': 'summarize.md'      # 总结文本
-  'ctrl+alt+cmd+2': 'translate.md'      # 翻译文本
-  'ctrl+alt+cmd+3': 'grammar_check.md'  # 语法检查
-  'ctrl+alt+cmd+4': 'explain.md'        # 解释说明
-  'ctrl+alt+cmd+5': 'improve.md'        # 文本改进
-
+hotkeys:
+  ctrl+1: grammar_check.md
+  alt+shift+q: summarize.md
+  cmd+f5: translate.md
+  ctrl+alt+z: custom_template.md
+  ctrl+shift+space: brainstorm.md
 settings:
-  enable_notifications: true
-  auto_reload: true
-  debounce_time: 0.3
+  enabled: true
+  response_delay: 100
 ```
 </details>
+
+#### 使用说明
+
+1. **编辑 `config/hotkey_mapping.yaml`**，添加你喜欢的快捷键组合
+2. **保存文件**，程序会自动热重载，无需重启
+3. **在任意应用中选中文本，按下你配置的快捷键**，即可触发对应AI模板处理
+
+> ⚠️ 建议避免与常用系统/应用快捷键冲突（如 `cmd+c`、`cmd+v`、`ctrl+z` 等）
+
+---
 
 ## 🎮 使用方法
 
