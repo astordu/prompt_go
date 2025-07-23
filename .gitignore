@@ -1,10 +1,68 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyo
+*.pyd
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.egg
+.eggs/
 
 # Virtual environments
-.venv
+.venv/
+.env/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Project-specific files
+*.log
+*.log.*
+temp_*
+.temp/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+
+# Configuration files with sensitive data
+config/global_config.yaml
+!config/global_config.example.yaml
+!config/hotkey_mapping.yaml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.tmp
+
+# PID files
+*.pid
+
+# Local development
+local/
+.local/
+scratch/
