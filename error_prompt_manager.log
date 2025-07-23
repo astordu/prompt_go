@@ -1,0 +1,24 @@
+2025-07-23 13:32:26 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:32:26 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:32:26 - main - ERROR - [main.py:396] - 组件未完全初始化，无法启动
+2025-07-23 13:32:26 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:32:26 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:32:26 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:32:27 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:32:27 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:35:38 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:35:38 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:35:38 - main - ERROR - [main.py:396] - 组件未完全初始化，无法启动
+2025-07-23 13:35:38 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:35:38 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:35:38 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:35:39 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:35:39 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:47:49 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:47:49 - main - ERROR - [main.py:348] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:47:49 - main - ERROR - [main.py:397] - 组件未完全初始化，无法启动
+2025-07-23 13:47:49 - main - ERROR - [main.py:348] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:47:49 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:47:49 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed

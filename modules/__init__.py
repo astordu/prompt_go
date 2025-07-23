@@ -59,6 +59,21 @@ from .model_client import (
     EnhancedModelClient
 )
 
+from .text_processor import (
+    TextProcessor
+)
+
+from .performance_optimizer import (
+    PerformanceOptimizer,
+    FastHotkeyProcessor,
+    PerformanceTimer,
+    PerformanceCache,
+    PerformanceMonitor,
+    get_global_optimizer,
+    ensure_fast_response,
+    performance_monitor
+)
+
 __all__ = [
     'ConfigManager',
     'GlobalConfigManager', 
@@ -107,5 +122,16 @@ __all__ = [
     # Connection and timeout management
     'ConnectionPool',
     'TimeoutManager',
-    'EnhancedModelClient'
+    'EnhancedModelClient',
+    # Text processing
+    'TextProcessor',
+    # Performance optimization
+    'PerformanceOptimizer',
+    'FastHotkeyProcessor',
+    'PerformanceTimer',
+    'PerformanceCache',
+    'PerformanceMonitor',
+    'get_global_optimizer',
+    'ensure_fast_response',
+    'performance_monitor'
 ] 

@@ -1,0 +1,392 @@
+2025-07-23 13:37:31 - main - ERROR - [main.py:347] - 初始化过程中发生异常: HotkeyListener.__init__() got an unexpected keyword argument 'prompt_dir'
+2025-07-23 13:38:08 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 'HotkeyListener' object has no attribute 'set_template_handler'
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:33 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:34 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:34 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:34 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:34 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:36 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:39 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - modules.config_manager - ERROR - [config_manager.py:73] - YAML格式错误: mapping values are not allowed here
+  in "/var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp0pidlrj4/hotkey_mapping.yaml", line 1, column 14
+2025-07-23 13:47:40 - modules.hotkey_listener - ERROR - [hotkey_listener.py:162] - 加载快捷键配置失败: mapping values are not allowed here
+  in "/var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp0pidlrj4/hotkey_mapping.yaml", line 1, column 14
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='/var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqxsh4_bf', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:40 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:43 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:45 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - modules.hotkey_listener - ERROR - [hotkey_listener.py:1414] - 重启尝试次数已达上限 (2)，停止自动重启
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:46 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:47 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:48 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:49 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:49 - modules.hotkey_listener - ERROR - [hotkey_listener.py:2298] - ❌ 辅助功能权限未授予，无法启动快捷键监听
+2025-07-23 13:47:49 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled
+2025-07-23 13:47:49 - fsevents - ERROR - [fsevents.py:310] - Unhandled exception in FSEventsEmitter
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/watchdog/observers/fsevents.py", line 307, in run
+    _fsevents.add_watch(self, self.watch, self.events_callback, self.pathnames)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot add watch <ObservedWatch: path='prompt', is_recursive=False> - it is already scheduled

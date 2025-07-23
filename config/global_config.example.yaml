@@ -15,13 +15,48 @@ api:
     model: moonshot-v1-8k
 
 logging:
-  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  # 日志级别: DEBUG, INFO, WARNING, ERROR, CRITICAL
   level: INFO
+  
+  # 日志文件路径
+  file: prompt_manager.log
+  
+  # 单个日志文件最大大小（字节）
+  max_size: 10485760  # 10MB
+  
+  # 保留的日志文件数量
+  backup_count: 5
+  
+  # 日志格式
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  
+  # 是否清理旧日志文件
+  auto_cleanup: true
+  
+  # 日志文件保留天数
+  cleanup_days: 30
 
 performance:
-  max_retries: 3
-  response_timeout: 30
-  retry_delay: 1
+  # 性能优化设置 - 确保快捷键响应时间 < 500ms
+  max_retries: 2
+  response_timeout: 10
+  retry_delay: 0.5
+  
+  # 快捷键响应优化
+  hotkey_response_timeout: 0.5  # 快捷键响应超时（秒）
+  typing_speed: 0.005           # 打字速度（秒/字符）
+  chunk_output_delay: 0.01      # 流式输出延迟
+  max_output_length: 5000       # 最大输出长度
+  
+  # 缓存优化
+  template_cache_enabled: true
+  template_cache_size: 50
+  config_cache_ttl: 300
+  preload_templates: true
+  
+  # 并发优化
+  max_concurrent_requests: 3
+  request_queue_size: 10
 
 # 配置步骤:
 # 1. 复制此文件为 global_config.yaml

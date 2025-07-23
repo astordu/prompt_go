@@ -1,0 +1,1085 @@
+2025-07-23 13:28:18,791 - main - INFO - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 13:30:08,249 - main - INFO - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 13:30:08,249 - main - INFO - 开始优雅关闭程序 (超时: 1秒)...
+2025-07-23 13:30:08,249 - main - INFO - 1. 停止快捷键监听...
+2025-07-23 13:30:08,249 - main - INFO - 2. 等待当前请求完成...
+2025-07-23 13:30:08,354 - main - INFO - 3. 清理资源...
+2025-07-23 13:30:08,354 - main - INFO - 4. 保存最终状态...
+2025-07-23 13:30:08,354 - main - INFO - 5. 清理PID文件...
+2025-07-23 13:30:08,354 - main - INFO - 优雅关闭完成
+2025-07-23 13:31:44 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:31:44 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpnd6whteq, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpmdm0a22n
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcrsqwyth, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpj5bxawbn
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:32:26 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:32:26 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:32:26 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:32:26 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprw48qk1q, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpm29byhg1
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwyqi9wdm, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpenjpl8rz
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpc7u7dq5m, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmplq2dxvk4
+2025-07-23 13:32:26 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:32:26 - main - ERROR - [main.py:396] - 组件未完全初始化，无法启动
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpw35bi62t, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5mzurq2p
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:32:26 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:32:26 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:32:26 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:32:26 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:32:26 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:407] - 提示词管理器启动成功
+2025-07-23 13:32:26 - main - INFO - [main.py:408] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:32:26 - main - WARNING - [main.py:431] - 没有找到快捷键映射配置
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpapk5ahv0, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprfg32n1f
+2025-07-23 13:32:26 - main - WARNING - [main.py:387] - 提示词管理器已经在运行中
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxhyscs19, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8bobkz_b
+2025-07-23 13:32:26 - main - INFO - [main.py:440] - 提示词管理器未在运行
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp6_8i0dks, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpy2b3n07k
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:32:26 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:32:26 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:32:26 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:32:26 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:32:26 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:407] - 提示词管理器启动成功
+2025-07-23 13:32:26 - main - INFO - [main.py:408] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:32:26 - main - WARNING - [main.py:431] - 没有找到快捷键映射配置
+2025-07-23 13:32:26 - main - INFO - [main.py:444] - 正在停止提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:472] - 运行统计:
+2025-07-23 13:32:26 - main - INFO - [main.py:473] -   运行时长: 0.0 秒
+2025-07-23 13:32:26 - main - INFO - [main.py:474] -   处理请求数: 0
+2025-07-23 13:32:26 - main - INFO - [main.py:475] -   错误次数: 0
+2025-07-23 13:32:26 - main - INFO - [main.py:460] - 提示词管理器已停止
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcj1e5fha, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkcfi2_mx
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:32:26 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:32:26 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:32:26 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:32:26 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:32:26 - main - INFO - [main.py:487] - 重新加载配置...
+2025-07-23 13:32:26 - main - INFO - [main.py:498] - 配置重新加载完成
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3nb7nlon, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp28od6dir
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1zmql6hx, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp46t1bsll
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:32:26 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:32:26 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:32:26 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:32:26 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1x0ikzwt, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqm8l5ner
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpuzadigmx, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpecjkt3y_
+2025-07-23 13:32:26 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:32:26 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:32:26 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 13:32:26 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 13:32:26 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:32:26 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:32:26 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpg7_lf2y8, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpz81ollfe
+2025-07-23 13:32:26 - test_prompt_manager - INFO - [test_main.py:398] - 测试日志消息
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4ccb8i7y/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpn6hreg3t/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpoi1k5q5k/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4aa0jkkl/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpiix8xsb2/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp2j9mjees/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp2gzclrlm/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp0c_5jrpt/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwmdhqgg1/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzhaomwyq/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpq28tfnnx/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpr3450pki/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpl8s_op_5/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd2ztmpfv/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp85tuznsa/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.text_processor - WARNING - [text_processor.py:339] - 辅助功能权限检查失败: Accessibility permission denied
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpt3l0pu7u/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppu5y8fv3/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpyodxnkjd/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7i_4mgq9/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1wlyhz_p/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpg7tutsxz/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.text_processor - WARNING - [text_processor.py:107] - 复制操作失败
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1v0fsl4r/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkctogvyz/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcnv0xg2f/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:26 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpp9nxbg2f/global_config.yaml
+2025-07-23 13:32:26 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:26 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwo0p7fre/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpddqi2pc_/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpj1x07gup/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpo244iy09/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpanb0jqpn/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8ecp4m2d/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkej8gl1p/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdna30ofn/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxqo0unr4/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpmjdev6cz/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpk3sk_4ig/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpuic2yqwd/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgicidcyy/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpp29lskd4/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxkiy0kmu/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp9pcvhd24/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpvk70e621 中发现 2 个模板文件
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_hsq2_xp/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 test_template.md，文本长度: 7
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4_d68tyi/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpr9kk1fnz/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppszf77us/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwl_g4sao 中发现 2 个模板文件
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp78wqz3e3/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - WARNING - [text_processor.py:746] - 未知模型类型: unknown-model，默认使用 Deepseek
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmphktgtirx/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqp6lo9tb/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmptp8epegf/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmptp8epegf/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmptp8epegf/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxmeo156k/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpy0_ikvjm/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpsmu80dg8/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:959] - 文本已复制到剪贴板（备用输出方案）
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpmuxc991c/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpjas6e20p/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpuxxq8421/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpyhq2imww/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpf9ir0602 中发现 0 个模板文件
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpx2nj7vtg/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwr6t8iwf/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8kmzvvkx/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp416ucap9/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpyyj2r_we/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpuq_e64ju/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpga393k8_/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp9yks1ko3/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpr4mvsfm_/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmphvhxcnr_/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpg0jrv1ud/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpztrgszv0/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpx2u8lloz/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.text_processor - WARNING - [text_processor.py:1306] - 文本过滤失败，使用原文本: 测试错误
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpskmu1ceg/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpv_sx5vc0/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp84cf0t7d/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpn84ctaud/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpt2xguhcw/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3qsbmti6/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpm_1z9l72/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpi0p1cbv4/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd022zfgg/global_config.yaml
+2025-07-23 13:32:27 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:32:27 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpucgphqh4, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcwu367k_
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpbwev6hj3, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp51l0vgk2
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:35:38 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:35:38 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:35:38 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:35:38 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4xwxi47w, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppup2b9h_
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp9unisxhn, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8jon12gg
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp0lzulsop, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_scdkqw9
+2025-07-23 13:35:38 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:35:38 - main - ERROR - [main.py:396] - 组件未完全初始化，无法启动
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpl5jpc2c_, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqvf00hve
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:35:38 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:35:38 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:35:38 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:35:38 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:35:38 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:407] - 提示词管理器启动成功
+2025-07-23 13:35:38 - main - INFO - [main.py:408] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:35:38 - main - WARNING - [main.py:431] - 没有找到快捷键映射配置
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpj7jyct1c, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmplymekom2
+2025-07-23 13:35:38 - main - WARNING - [main.py:387] - 提示词管理器已经在运行中
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppvyvqfwl, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprdcf4h5j
+2025-07-23 13:35:38 - main - INFO - [main.py:440] - 提示词管理器未在运行
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8ir1eble, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcj_f8u5n
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:35:38 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:35:38 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:35:38 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:35:38 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:35:38 - main - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:407] - 提示词管理器启动成功
+2025-07-23 13:35:38 - main - INFO - [main.py:408] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:35:38 - main - WARNING - [main.py:431] - 没有找到快捷键映射配置
+2025-07-23 13:35:38 - main - INFO - [main.py:444] - 正在停止提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:472] - 运行统计:
+2025-07-23 13:35:38 - main - INFO - [main.py:473] -   运行时长: 0.0 秒
+2025-07-23 13:35:38 - main - INFO - [main.py:474] -   处理请求数: 0
+2025-07-23 13:35:38 - main - INFO - [main.py:475] -   错误次数: 0
+2025-07-23 13:35:38 - main - INFO - [main.py:460] - 提示词管理器已停止
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpe5rlj710, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7h3vdzy9
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:35:38 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:35:38 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:35:38 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:35:38 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:35:38 - main - INFO - [main.py:487] - 重新加载配置...
+2025-07-23 13:35:38 - main - INFO - [main.py:498] - 配置重新加载完成
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdh7wun1p, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkbon2fpx
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpz3n0e_si, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpj6rd5ehi
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:35:38 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:35:38 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:35:38 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:35:38 - main - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpizszldi1, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmph_y2eix4
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpy3ljp2l6, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfozejqgs
+2025-07-23 13:35:38 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:35:38 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:35:38 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 13:35:38 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 13:35:38 - main - ERROR - [main.py:347] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:35:38 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:35:38 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1bu73dji, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmponexiaqy
+2025-07-23 13:35:38 - test_prompt_manager - INFO - [test_main.py:398] - 测试日志消息
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8t1i1x6t/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxdb378yg/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_hy273t0/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp53a3mhao/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpjpgjeudm/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp24km__r4/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd4_7256r/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfiae_5js/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzpu9jt4v/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpnu552x_j/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpph973mk_/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcjps2y0b/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmps1mz7y70/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppvqxc8we/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfa5wpqvb/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.text_processor - WARNING - [text_processor.py:339] - 辅助功能权限检查失败: Accessibility permission denied
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgfi_3saf/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzmnj2lok/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpoprhiwnw/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpn7vodbkf/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpvj5dnuac/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp29firvu1/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.text_processor - WARNING - [text_processor.py:107] - 复制操作失败
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7hx4cx5e/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5o25wysa/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpl_gq98j0/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfj0_v58_/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3huloulc/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_48g2xpg/global_config.yaml
+2025-07-23 13:35:38 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:38 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcm9ja1ft/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpadz_pl7n/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmplcdmgdce/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpiwrfybur/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqjeoere2/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp22idomnc/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpml73nulz/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqt2inowq/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpu5zgh3xr/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8d2wi072/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpx9qvhwvj/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd37bko2s/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpa1qu8biw/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpk9efimub/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpb6o3xyph 中发现 2 个模板文件
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmplkgjpvji/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 test_template.md，文本长度: 7
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqjzg02xi/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpoqo64_7o/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpoir13zt8/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpyg4iyxrz 中发现 2 个模板文件
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpu1aky5u6/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - WARNING - [text_processor.py:746] - 未知模型类型: unknown-model，默认使用 Deepseek
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7cidmn59/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpp5quonhd/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprengjtah/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprengjtah/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprengjtah/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp32zzdldu/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxfcvb4ny/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd96h9g9d/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:959] - 文本已复制到剪贴板（备用输出方案）
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp6e03tcn9/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqacedyo0/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgo351pmg/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpufpe0mu7/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfpfx8i0j 中发现 0 个模板文件
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwlbkyfsd/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpao6919jz/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwqb1m_gg/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp0ob3rea0/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpcgks2n90/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpradi_cc5/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3rpaa_4f/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp53ain1p4/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpka5i72d4/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkntnnuo_/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdhi2zdss/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpm4nwug1c/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpouy0t4yd/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.text_processor - WARNING - [text_processor.py:1306] - 文本过滤失败，使用原文本: 测试错误
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpu9z41uwd/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmph1fhp7kg/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpwre_gtmf/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxdl5n3es/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmptqwfcsd_/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp30qnghi3/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdlchtfoa/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpx4q3j5fj/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqnmpgpwe/global_config.yaml
+2025-07-23 13:35:39 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:35:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpb_wz9c4f, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp2kv07w77
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpn_8b8v81, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp74x_w7ek
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:47:49 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:47:49 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:47:49 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:47:49 - main - INFO - [main.py:344] - 所有组件初始化完成
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp88kygqx8, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpjnetevyj
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - ERROR - [main.py:299] - 项目初始化失败: 初始化失败
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpohub1kvk, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5fqmd696
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - ERROR - [main.py:348] - 初始化过程中发生异常: 测试异常
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpd27z893t, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpprf0ltza
+2025-07-23 13:47:49 - main - INFO - [main.py:392] - 启动提示词管理器...
+2025-07-23 13:47:49 - main - ERROR - [main.py:397] - 组件未完全初始化，无法启动
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4hlde_ja, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpbe5udqlw
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:47:49 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:47:49 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:47:49 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:47:49 - main - INFO - [main.py:344] - 所有组件初始化完成
+2025-07-23 13:47:49 - main - INFO - [main.py:392] - 启动提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:408] - 提示词管理器启动成功
+2025-07-23 13:47:49 - main - INFO - [main.py:409] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:47:49 - main - WARNING - [main.py:432] - 没有找到快捷键映射配置
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3cu5uisk, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpunwb3a11
+2025-07-23 13:47:49 - main - WARNING - [main.py:388] - 提示词管理器已经在运行中
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpmevw98i1, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqq93_br0
+2025-07-23 13:47:49 - main - INFO - [main.py:441] - 提示词管理器未在运行
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp569j_2ri, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpum8n5dqj
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:47:49 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:47:49 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:47:49 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:47:49 - main - INFO - [main.py:344] - 所有组件初始化完成
+2025-07-23 13:47:49 - main - INFO - [main.py:392] - 启动提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:408] - 提示词管理器启动成功
+2025-07-23 13:47:49 - main - INFO - [main.py:409] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-23 13:47:49 - main - WARNING - [main.py:432] - 没有找到快捷键映射配置
+2025-07-23 13:47:49 - main - INFO - [main.py:445] - 正在停止提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:473] - 运行统计:
+2025-07-23 13:47:49 - main - INFO - [main.py:474] -   运行时长: 0.0 秒
+2025-07-23 13:47:49 - main - INFO - [main.py:475] -   处理请求数: 0
+2025-07-23 13:47:49 - main - INFO - [main.py:476] -   错误次数: 0
+2025-07-23 13:47:49 - main - INFO - [main.py:461] - 提示词管理器已停止
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp8v_9c1k7, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp431c8vzd
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:47:49 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:47:49 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:47:49 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:47:49 - main - INFO - [main.py:344] - 所有组件初始化完成
+2025-07-23 13:47:49 - main - INFO - [main.py:488] - 重新加载配置...
+2025-07-23 13:47:49 - main - INFO - [main.py:499] - 配置重新加载完成
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmplfe_l260, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpba_xql5z
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppn37671x, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp3uhw202l
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - main - INFO - [main.py:302] - 项目初始化成功: 初始化成功
+2025-07-23 13:47:49 - main - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:313] - 配置文件加载成功
+2025-07-23 13:47:49 - main - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-23 13:47:49 - main - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-23 13:47:49 - main - INFO - [main.py:344] - 所有组件初始化完成
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpf71s46_l, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdior2zpo
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp6etlte_v, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgnkpe1g3
+2025-07-23 13:47:49 - main - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-23 13:47:49 - main - INFO - [main.py:294] - 初始化项目结构...
+2025-07-23 13:47:49 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-23 13:47:49 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-23 13:47:49 - main - ERROR - [main.py:348] - 初始化过程中发生异常: 'bool' object is not subscriptable
+2025-07-23 13:47:49 - main - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-23 13:47:49 - main - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpc7ky4jor, 模板目录: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4mj8p5ka
+2025-07-23 13:47:49 - test_prompt_manager - INFO - [test_main.py:398] - 测试日志消息
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpahboscpd/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzma_fo2a/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzhwgl4wv/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.text_processor - ERROR - [text_processor.py:138] - 获取剪贴板内容失败: Clipboard error
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzyj3ojg4/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpksoahdsl/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpanryzsp_/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxtb4vetf/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpblkbb089/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpw1ydq02e/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp921o2aue/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7eumw5ud/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmps_u_x62m/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpt7xqnr1y/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4ttohxxf/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpmdl9y2nr/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.text_processor - WARNING - [text_processor.py:339] - 辅助功能权限检查失败: Accessibility permission denied
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmphqy5msvl/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmppxfolo81/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqa8aritv/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp59ib45s2/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpv2bx2d6i/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmprty5zpmw/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.text_processor - WARNING - [text_processor.py:107] - 复制操作失败
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgd9ard6p/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_wxz6hpl/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpnipdsjne/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.text_processor - ERROR - [text_processor.py:226] - 模拟按键操作失败: Controller error
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpf94jyuph/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzx213a58/global_config.yaml
+2025-07-23 13:47:49 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:49 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp88nrqlqu/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp2x6pq_ar/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpg2uf_b2k/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpiozo6xkk/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkx9oi8ya/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfadv5f7r/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmps1mocvst/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7x2_m9ka/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpnpu_x96o/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpep8m03fe/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkc2xnnr6/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpf0asi6pn/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqc_9yec1/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpqrfcozdr/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxxyjqjos/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5ywynzsx 中发现 2 个模板文件
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpu_q7uwtw/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 test_template.md，文本长度: 7
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpjgkn60ex/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp397vjn0x/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp29lah6xf/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_ruc33n0 中发现 2 个模板文件
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpkghw07tb/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - WARNING - [text_processor.py:746] - 未知模型类型: unknown-model，默认使用 Deepseek
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpc8t60pty/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpe0iunmy6/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:713] - 未配置 deepseek 的API密钥
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpeb0irmhm/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpeb0irmhm/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpeb0irmhm/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpv17hc5e_/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp6l7yw2e6/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpw0vhu3ad/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - ERROR - [text_processor.py:946] - 光标位置输出失败: Controller failed
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:959] - 文本已复制到剪贴板（备用输出方案）
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp_9eypsbb/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpf_wxq6pu/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxn9zdywt/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:983] - 开始完整的AI模板处理流程: test_template.md
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpdik5tb81/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.template_parser - INFO - [template_parser.py:282] - 在 /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpygydo9og 中发现 0 个模板文件
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5kbvd3ew/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpehnzr9ar/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpndbn67ew/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1w6xdays/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp44u797xd/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpgfq_2tvk/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp9z84dl00/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp76yl5ddt/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpxz3rfztt/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpck_perfs/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpia93p2ej/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfv94rtsa/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp7ndye_1p/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.text_processor - WARNING - [text_processor.py:1306] - 文本过滤失败，使用原文本: 测试错误
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp5ip05hpw/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfz_bzbrp/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpp2o2avl8/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpzz8nkwoq/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp4t0ymc6f/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp1ousexxn/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpuprmag4n/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmp2p44g51m/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:93] - 成功保存配置文件: /var/folders/wk/562mtv_17k3bv5pmh1v2824m0000gn/T/tmpfj59c9sz/global_config.yaml
+2025-07-23 13:47:50 - modules.config_manager - INFO - [config_manager.py:231] - 创建默认全局配置文件
+2025-07-23 13:47:50 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)

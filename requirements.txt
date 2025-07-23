@@ -19,6 +19,9 @@ watchdog>=3.0.0
 # 异步编程支持
 asyncio>=3.4.3
 
+# 进程管理
+psutil>=5.9.0
+
 # 日志记录增强
 coloredlogs>=15.0.1
 
