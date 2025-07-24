@@ -3,19 +3,8 @@
 
 hotkeys:
   # 文本处理相关快捷键
-  ctrl+alt+cmd+1: translate.md         # 翻译功能
-  ctrl+alt+cmd+2: summarize.md         # 文本摘要
-  ctrl+alt+cmd+3: grammar_check.md     # 语法检查
-  
-  # 编程辅助相关快捷键  
-  ctrl+alt+cmd+4: code_review.md       # 代码审查
-  ctrl+alt+cmd+5: debug_help.md        # 调试帮助
-  ctrl+alt+cmd+6: code_explain.md      # 代码解释
-  
-  # 写作辅助相关快捷键
-  ctrl+alt+cmd+7: improve_writing.md   # 改进写作
-  ctrl+alt+cmd+8: brainstorm.md        # 头脑风暴
-  ctrl+alt+cmd+9: format_text.md       # 格式化文本
+  ctrl+shift+1: tidy_content.md        # 内容整理
+  ctrl+shift+2: translate.md           # 翻译功能
 
 settings:
   # 启用快捷键监听
@@ -26,20 +15,15 @@ settings:
 
 # 实际使用示例:
 # 
-# 场景1: 翻译文本
+# 场景1: 内容整理
+# 1. 选中需要整理的文本
+# 2. 按下 Ctrl+Shift+1
+# 3. AI会将文本进行整理和格式化
+#
+# 场景2: 翻译文本
 # 1. 选中需要翻译的文本
-# 2. 按下 Ctrl+Alt+Cmd+1
+# 2. 按下 Ctrl+Shift+2
 # 3. AI会将文本插入翻译模板并返回翻译结果
-#
-# 场景2: 代码审查
-# 1. 选中一段代码
-# 2. 按下 Ctrl+Alt+Cmd+4  
-# 3. AI会分析代码并提供改进建议
-#
-# 场景3: 文本摘要
-# 1. 选中长篇文本
-# 2. 按下 Ctrl+Alt+Cmd+2
-# 3. AI会生成简洁的摘要
 
 # 模板文件命名建议:
 # - 使用英文和下划线命名

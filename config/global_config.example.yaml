@@ -5,7 +5,7 @@ api:
   deepseek:
     base_url: https://api.deepseek.com
     # 示例密钥格式（请替换为您的真实密钥）
-    key: 'sk-1234567890abcdef1234567890abcdef'
+    key: 'sk-your-deepseek-api-key'
     model: deepseek-chat
 
 logging:

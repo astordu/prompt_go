@@ -91,3 +91,4 @@ UnicodeDecodeError: 'utf-16-le' codec can't decode bytes in position 0-1: unexpe
 2025-07-23 17:01:56 - modules.hotkey_listener - ERROR - [hotkey_listener.py:2514] - 停止快捷键监听器失败: cannot join current thread
 2025-07-23 17:01:57 - modules.hotkey_listener - ERROR - [hotkey_listener.py:1564] - 监听器重启失败
 2025-07-24 08:56:31 - modules.text_processor - ERROR - [text_processor.py:731] - 获取模型客户端失败: type object 'ModelType' has no attribute 'KIMI'
+2025-07-24 11:02:38 - modules.hotkey_listener - ERROR - [hotkey_listener.py:1616] - 模板文件不存在或无效: translate.mdctrl+2translate.md
