@@ -65,7 +65,7 @@ Using this software on macOS requires enabling terminal accessibility permission
 
 ```bash
 # 1. Clone the project
-git clone https://github.com/your-username/prompt_go.git
+git clone https://github.com/astordu/prompt_go.git
 cd prompt_go
 
 # 2. Install dependencies (recommended uv)

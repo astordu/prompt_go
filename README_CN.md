@@ -65,7 +65,7 @@ Prompt Manager 是一款专为提升文本处理效率而设计的本地AI工具
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/your-username/prompt_go.git
+git clone https://github.com/astordu/prompt_go.git
 cd prompt_go
 
 # 2. 安装依赖（推荐uv）
