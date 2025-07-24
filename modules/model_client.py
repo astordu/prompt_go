@@ -299,20 +299,20 @@ class ModelClient(ABC):
         """发送聊天请求（同步）"""
         return self._make_request(request)
     
-    def chat_stream(self, request: ModelRequest) -> Iterator[StreamChunk]:
+    def chat_stream(self, request: ModelRequest, cancellation_token=None) -> Iterator[StreamChunk]:
         """发送流式聊天请求（同步）"""
         request.stream = True
-        return self._make_stream_request(request)
+        return self._make_stream_request(request, cancellation_token=cancellation_token)
     
     # 异步方法
     async def chat_async(self, request: ModelRequest) -> ModelResponse:
         """发送聊天请求（异步）"""
         return await self._make_request_async(request)
     
-    async def chat_stream_async(self, request: ModelRequest) -> AsyncIterator[StreamChunk]:
+    async def chat_stream_async(self, request: ModelRequest, cancellation_token=None) -> AsyncIterator[StreamChunk]:
         """发送流式聊天请求（异步）"""
         request.stream = True
-        async for chunk in self._make_stream_request_async(request):
+        async for chunk in self._make_stream_request_async(request, cancellation_token=cancellation_token):
             yield chunk
     
     def _make_request(self, request: ModelRequest) -> ModelResponse:
@@ -364,7 +364,7 @@ class ModelClient(ABC):
             else:
                 raise ModelClientError(f"请求处理失败: {e}", original_error=e)
     
-    def _make_stream_request(self, request: ModelRequest) -> Iterator[StreamChunk]:
+    def _make_stream_request(self, request: ModelRequest, cancellation_token=None) -> Iterator[StreamChunk]:
         """发送同步流式请求"""
         start_time = time.time()
         chunk_id = 0
@@ -383,12 +383,22 @@ class ModelClient(ABC):
             
             # 发送流式请求
             for chunk_data in self._send_stream_request(request_data, request.timeout):
+                # 检查是否已取消
+                if cancellation_token and cancellation_token.is_cancelled():
+                    logger.info("流式请求已被用户取消")
+                    break
+                
                 chunk = self.parse_stream_chunk(chunk_data, chunk_id, request)
                 if chunk:
                     yield chunk
                     chunk_id += 1
                     
         except Exception as e:
+            # 检查是否已取消
+            if cancellation_token and cancellation_token.is_cancelled():
+                logger.info("流式请求在异常处理前已被取消")
+                return
+                
             # 发送错误块
             error_chunk = StreamChunk(
                 content="",
@@ -454,7 +464,7 @@ class ModelClient(ABC):
             else:
                 raise ModelClientError(f"异步请求处理失败: {e}", original_error=e)
     
-    async def _make_stream_request_async(self, request: ModelRequest) -> AsyncIterator[StreamChunk]:
+    async def _make_stream_request_async(self, request: ModelRequest, cancellation_token=None) -> AsyncIterator[StreamChunk]:
         """发送异步流式请求"""
         start_time = time.time()
         chunk_id = 0
@@ -473,12 +483,22 @@ class ModelClient(ABC):
             
             # 发送异步流式请求
             async for chunk_data in self._send_stream_request_async(request_data, request.timeout):
+                # 检查是否已取消
+                if cancellation_token and cancellation_token.is_cancelled():
+                    logger.info("异步流式请求已被用户取消")
+                    break
+                
                 chunk = self.parse_stream_chunk(chunk_data, chunk_id, request)
                 if chunk:
                     yield chunk
                     chunk_id += 1
                     
         except Exception as e:
+            # 检查是否已取消
+            if cancellation_token and cancellation_token.is_cancelled():
+                logger.info("异步流式请求在异常处理前已被取消")
+                return
+                
             # 发送错误块
             error_chunk = StreamChunk(
                 content="",

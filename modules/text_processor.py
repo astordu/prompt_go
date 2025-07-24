@@ -23,6 +23,9 @@ from .model_client import (
     StreamProcessor, StreamingManager, ModelClientError
 )
 from .config_manager import GlobalConfigManager
+from .streaming_cancellation import (
+    cancellation_manager, CancellationAwareStreamProcessor, CancellationToken
+)
 
 logger = logging.getLogger(__name__)
 
@@ -917,7 +920,7 @@ class TextProcessor:
     def _execute_streaming_request(self, client: Any, request: ModelRequest,
                                   output_callback: Optional[Callable[[str], None]] = None) -> Dict[str, Any]:
         """
-        执行流式AI请求
+        执行流式AI请求（支持ESC键取消）
         
         Args:
             client: 模型客户端
@@ -931,45 +934,57 @@ class TextProcessor:
             'success': False,
             'content': '',
             'total_tokens': None,
-            'error': None
+            'error': None,
+            'cancelled': False
         }
         
         try:
-            # 创建流式缓冲区
-            buffer = StreamBuffer()
+            # 创建流ID
+            stream_id = f"text_processor_{int(time.time() * 1000)}"
             
-            # 设置实时输出回调
-            def chunk_handler(chunk: StreamChunk):
+            # 创建取消令牌
+            cancellation_token = cancellation_manager.create_cancellation_token(stream_id)
+            
+            # 创建支持取消的流式处理器
+            cancellation_processor = CancellationAwareStreamProcessor(cancellation_manager)
+            
+            # 设置输出回调
+            def output_handler(chunk_content: str):
                 try:
-                    if chunk.content:
-                        # 立即输出到光标位置
-                        if output_callback:
-                            self._output_text_streaming(chunk.content, output_callback)
-                        else:
-                            self._output_text_to_cursor(chunk.content)
-                            
+                    if output_callback:
+                        self._output_text_streaming(chunk_content, output_callback)
+                    else:
+                        self._output_text_to_cursor(chunk_content)
                 except Exception as e:
                     logger.error(f"输出处理失败: {e}")
             
-            # 处理流式响应
-            result_buffer = self.streaming_manager.process_client_stream(
-                client, request, chunk_handler
+            # 获取流式数据，支持取消
+            chunks = client.chat_stream(request, cancellation_token=cancellation_token)
+            
+            # 使用支持取消的处理器处理流式数据
+            process_result = cancellation_processor.process_with_cancellation(
+                stream_id=stream_id,
+                chunks_iter=chunks,
+                chunk_handler=output_handler,
+                cancellation_token=cancellation_token
             )
             
-            # 获取完整响应
-            if result_buffer.error_occurred:
-                error_msg = result_buffer.error_message or '未知错误'
-                result['error'] = f"流式响应过程中发生错误: {error_msg}"
-                logger.error(f"流式响应错误详情: {error_msg}")
-            else:
-                result['success'] = True
-                result['content'] = result_buffer.get_content()
-                result['total_tokens'] = result_buffer.total_tokens
-                
+            # 更新结果
+            result.update(process_result)
+            
+            if process_result['cancelled']:
+                logger.info("用户通过ESC键取消了流式输出")
+                result['cancelled'] = True
+                result['error'] = "用户已取消流式输出"
+            
         except ModelClientError as e:
             result['error'] = f"模型API调用失败: {e}"
         except Exception as e:
             result['error'] = f"流式请求执行失败: {e}"
+        finally:
+            # 清理取消令牌
+            if 'stream_id' in locals():
+                cancellation_manager.remove_stream(stream_id)
             
         return result
     

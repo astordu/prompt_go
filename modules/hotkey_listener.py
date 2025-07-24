@@ -22,6 +22,7 @@ from watchdog.events import FileSystemEventHandler
 
 from .config_manager import HotkeyConfigManager
 from .template_parser import BasicTemplateParser
+from .streaming_cancellation import cancellation_manager
 
 logger = logging.getLogger(__name__)
 
@@ -1272,6 +1273,13 @@ class HotkeyListener:
         """按键按下事件处理"""
         try:
             self._pressed_keys.add(key)
+            
+            # 检查ESC键（单独处理ESC键用于取消流式输出）
+            if hasattr(key, 'vk') and key.vk == 53 or str(key) == "Key.esc":
+                logger.debug("检测到ESC键按下，触发流式输出取消")
+                cancellation_manager.handle_esc_key()
+                self._pressed_keys.clear()
+                return
             
             # 检查是否形成了完整的快捷键组合
             hotkey = self._normalize_hotkey(self._pressed_keys)

@@ -19,7 +19,7 @@ try:
         ModelType, ResponseStatus, ModelRequest, ModelResponse,
         StreamChunk, StreamBuffer, StreamProcessor, StreamingManager,
         ModelClientError, APIConnectionError, APITimeoutError,
-        ModelClientFactory, DeepseekClient, KimiClient
+        ModelClientFactory, DeepseekClient
     )
 except ImportError as e:
     pytest.skip(f"无法导入模型客户端模块: {e}", allow_module_level=True)

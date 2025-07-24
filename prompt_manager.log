@@ -5109,3 +5109,392 @@ UnicodeDecodeError: 'utf-16-le' codec can't decode bytes in position 0-1: unexpe
 2025-07-24 08:57:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+n
 2025-07-24 08:57:51 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+r
 2025-07-24 08:59:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 08:59:34 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+:
+2025-07-24 09:00:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+t
+2025-07-24 09:09:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:11:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+t
+2025-07-24 09:13:06 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:13:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:13:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:13:15 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 09:13:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:13:40 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:15:33 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+n
+2025-07-24 09:15:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+d
+2025-07-24 09:15:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+ctrl+enter
+2025-07-24 09:15:51 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+shift+p
+2025-07-24 09:16:13 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+cmd+v
+2025-07-24 09:16:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:16:24 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:16:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+right
+2025-07-24 09:17:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+enter
+2025-07-24 09:17:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+enter
+2025-07-24 09:18:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:18:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:19:01 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:19:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: alt+cmd+v
+2025-07-24 09:19:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:19:09 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:19:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:19:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+right
+2025-07-24 09:19:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:19:30 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:19:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:19:40 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:19:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+u
+2025-07-24 09:19:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:20:17 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:20:18 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:20:32 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+space
+2025-07-24 09:20:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+space
+2025-07-24 09:22:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+?
+2025-07-24 09:22:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+space
+2025-07-24 09:23:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:23:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:26:42 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:40:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:40:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+?
+2025-07-24 09:40:26 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:40:38 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:40:39 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:41:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+ctrl+a
+2025-07-24 09:52:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:52:13 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 09:54:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+r
+2025-07-24 09:55:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:55:15 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:55:34 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+:
+2025-07-24 09:55:35 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 09:55:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: shift+enter
+2025-07-24 09:55:45 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:55:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 09:55:55 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:55:56 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:56:34 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:56:35 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1603] - 未找到快捷键对应的模板: ctrl+c
+2025-07-24 09:56:35 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-24 09:56:35 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-24 09:56:35 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-24 09:56:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:1483] - 健康检查线程已停止
+2025-07-24 09:56:37 - modules.hotkey_listener - INFO - [hotkey_listener.py:2510] - 全局快捷键监听器已停止
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:476] -   运行时长: 3610.4 秒
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:477] -   处理请求数: 2
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:478] -   错误次数: 1
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:481] -   成功率: 50.0%
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-24 09:56:37 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 36164)
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-24 09:56:39 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-24 09:56:39 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-24 09:56:39 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-24 09:56:39 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-24 09:56:39 - modules.text_processor - INFO - [text_processor.py:86] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2048] - 初始化macOS兼容性检查...
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2101] - ✅ 辅助功能权限已授予
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2163] - ✅ 系统通知功能可用
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2219] - ✅ macOS版本支持现代权限管理
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2243] - ✅ 未发现兼容性问题
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2062] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-24 09:56:39 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:181] - 加载快捷键映射: 4 个快捷键
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:217] - 快捷键配置验证通过，健康度评分: 58.9
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:336] - 启动模板目录监控: prompt
+2025-07-24 09:56:39 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1757] - 配置文件热重载监控已启动
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1466] - 监听状态恢复完成
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+1
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+2
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+3
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+4
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1483] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-24 09:56:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2463] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:432] -   ctrl+2 -> translate.md
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:432] -   ctrl+3 -> tidy_content.md
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:432] -   ctrl+4 -> summarize.md
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-24 09:56:39 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-24 09:56:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 09:56:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+shift+right
+2025-07-24 09:56:50 - modules.hotkey_listener - INFO - [hotkey_listener.py:1619] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-24 09:56:50 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-24 09:56:50 - modules.text_processor - INFO - [text_processor.py:1050] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-24 09:56:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:56:50 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 09:56:50 - modules.text_processor - INFO - [text_processor.py:411] - 成功处理模板 grammar_check.md，文本长度: 9
+2025-07-24 09:56:50 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-24 09:56:54 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:54 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:55 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:55 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:55 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:55 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:56 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:56:57 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:57:03 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:04 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 09:57:04 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 09:57:07 - modules.text_processor - INFO - [text_processor.py:908] - AI流式处理完成: grammar_check.md, 响应时间: 16.43s
+2025-07-24 09:57:07 - __main__ - INFO - [main.py:364] - 模板处理成功: grammar_check.md
+2025-07-24 09:57:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+z
+2025-07-24 09:58:03 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 09:58:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:07:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:07:20 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:07:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:07:22 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:07:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:07:52 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:07:52 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:07:58 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+left
+2025-07-24 10:08:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+:
+2025-07-24 10:08:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:08:22 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+z
+2025-07-24 10:08:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:08:28 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:08:28 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:08:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:08:49 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:09:41 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+ctrl+a
+2025-07-24 10:09:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+ctrl+a
+2025-07-24 10:10:10 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:10:10 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:10:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:10:32 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:10:32 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:10:35 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:18:03 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+t
+2025-07-24 10:18:05 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:18:17 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:18:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:18:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+f
+2025-07-24 10:18:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:18:33 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:18:36 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:18:38 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+f
+2025-07-24 10:18:42 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+f
+2025-07-24 10:18:44 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:19:04 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:20:24 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:24:14 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:24:16 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+left
+2025-07-24 10:24:26 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:24:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:24:28 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+left
+2025-07-24 10:24:29 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:24:33 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:24:42 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+ctrl+a
+2025-07-24 10:24:43 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:24:49 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:24:49 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:25:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:25:20 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:25:20 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:25:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+?
+2025-07-24 10:25:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:26:07 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:26:07 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:26:17 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:26:17 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:26:21 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:26:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:26:26 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:26:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:26:30 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+tab
+2025-07-24 10:26:32 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+~
+2025-07-24 10:27:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:27:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:28:39 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+f
+2025-07-24 10:29:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: alt+cmd+ctrl+right
+2025-07-24 10:29:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:29:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+v
+2025-07-24 10:30:48 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+space
+2025-07-24 10:30:53 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:30:55 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:30:58 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:31:01 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:31:08 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:31:11 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:36:52 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:36:55 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:37:03 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:37:09 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:37:09 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:37:15 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:40:39 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: ctrl+c
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:656] - 接收到信号 2，准备优雅退出...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:594] - 开始优雅关闭程序 (超时: 10秒)...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:600] - 1. 停止快捷键监听...
+2025-07-24 10:40:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:1491] - 健康检查线程已停止
+2025-07-24 10:40:39 - modules.hotkey_listener - INFO - [hotkey_listener.py:2518] - 全局快捷键监听器已停止
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:605] - 2. 等待当前请求完成...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:613] - 3. 清理资源...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:623] - 4. 保存最终状态...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:475] - 运行统计:
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:476] -   运行时长: 2640.6 秒
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:477] -   处理请求数: 1
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:478] -   错误次数: 0
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:481] -   成功率: 100.0%
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:627] - 5. 清理PID文件...
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:581] - PID文件已删除: prompt_manager.pid
+2025-07-24 10:40:39 - __main__ - INFO - [main.py:631] - 优雅关闭完成
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:160] - 日志系统初始化完成 - 级别: INFO, 文件: prompt_manager.log
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:80] - 提示词管理器初始化 - 配置目录: config, 模板目录: prompt
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:737] - ==================================================
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:738] - 本地提示词管理软件 v1.0.0
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:739] - ==================================================
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:567] - PID文件已创建: prompt_manager.pid (PID: 88877)
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:291] - 开始初始化提示词管理器...
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:294] - 初始化项目结构...
+2025-07-24 10:40:41 - modules.project_initializer - INFO - [project_initializer.py:230] - 开始项目初始化...
+2025-07-24 10:40:41 - modules.project_initializer - INFO - [project_initializer.py:248] - 项目初始化完成
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:302] - 项目初始化成功: 项目初始化完成
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:305] - 初始化配置管理器...
+2025-07-24 10:40:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-24 10:40:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:313] - 配置文件加载成功
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:318] - 初始化文本处理器...
+2025-07-24 10:40:41 - modules.text_processor - INFO - [text_processor.py:89] - 文本处理器初始化完成 (平台: Darwin)
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:326] - 平台能力检测: Darwin
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:334] - 初始化快捷键监听器...
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2048] - 初始化macOS兼容性检查...
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2101] - ✅ 辅助功能权限已授予
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2163] - ✅ 系统通知功能可用
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2219] - ✅ macOS版本支持现代权限管理
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2243] - ✅ 未发现兼容性问题
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2062] - macOS兼容性检查完成 (系统版本: 15.5)
+2025-07-24 10:40:41 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/hotkey_mapping.yaml
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:181] - 加载快捷键映射: 4 个快捷键
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:217] - 快捷键配置验证通过，健康度评分: 58.9
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:336] - 启动模板目录监控: prompt
+2025-07-24 10:40:41 - modules.config_manager - INFO - [config_manager.py:174] - 开始监控配置文件变化: config/hotkey_mapping.yaml
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1757] - 配置文件热重载监控已启动
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1466] - 监听状态恢复完成
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+1
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+2
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+3
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1317] - 注册快捷键处理函数: ctrl+4
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:343] - 所有组件初始化完成
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:391] - 启动提示词管理器...
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:1483] - 健康检查线程已启动，检查间隔: 30秒
+2025-07-24 10:40:41 - modules.hotkey_listener - INFO - [hotkey_listener.py:2463] - 全局快捷键监听器启动成功 (平台: Darwin)
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:410] - 提示词管理器启动成功
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:411] - 快捷键监听已激活，可以开始使用快捷键...
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:430] - 当前快捷键映射:
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:432] -   ctrl+1 -> grammar_check.md
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:432] -   ctrl+2 -> translate.md
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:432] -   ctrl+3 -> tidy_content.md
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:432] -   ctrl+4 -> summarize.md
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:758] - 程序运行中，按 Ctrl+C 退出
+2025-07-24 10:40:41 - __main__ - INFO - [main.py:759] - 发送 SIGHUP 信号可重新加载配置
+2025-07-24 10:40:46 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+shift+left
+2025-07-24 10:40:47 - modules.hotkey_listener - INFO - [hotkey_listener.py:1619] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-24 10:40:47 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-24 10:40:47 - modules.text_processor - INFO - [text_processor.py:1065] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-24 10:40:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:40:47 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:40:48 - modules.text_processor - INFO - [text_processor.py:414] - 成功处理模板 grammar_check.md，文本长度: 9
+2025-07-24 10:40:48 - modules.config_manager - INFO - [config_manager.py:69] - 成功加载配置文件: config/global_config.yaml
+2025-07-24 10:40:52 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:40:52 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:118] - 已取消流: text_processor_1753324848186
+2025-07-24 10:40:52 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 1 个流
+2025-07-24 10:40:52 - modules.model_client - INFO - [model_client.py:388] - 流式请求已被用户取消
+2025-07-24 10:40:52 - modules.text_processor - INFO - [text_processor.py:911] - AI流式处理完成: grammar_check.md, 响应时间: 4.19s
+2025-07-24 10:40:52 - __main__ - WARNING - [main.py:366] - 模板处理失败: None
+2025-07-24 10:40:59 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+shift+left
+2025-07-24 10:41:00 - modules.hotkey_listener - INFO - [hotkey_listener.py:1619] - 触发快捷键: ctrl+1 -> grammar_check.md
+2025-07-24 10:41:00 - __main__ - INFO - [main.py:357] - 处理模板: grammar_check.md
+2025-07-24 10:41:00 - modules.text_processor - INFO - [text_processor.py:1065] - 开始完整的AI模板处理流程: grammar_check.md
+2025-07-24 10:41:00 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:00 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:00 - modules.text_processor - INFO - [text_processor.py:414] - 成功处理模板 grammar_check.md，文本长度: 26
+2025-07-24 10:41:04 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:41:04 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:118] - 已取消流: text_processor_1753324860803
+2025-07-24 10:41:04 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 1 个流
+2025-07-24 10:41:04 - modules.model_client - INFO - [model_client.py:388] - 流式请求已被用户取消
+2025-07-24 10:41:04 - modules.text_processor - INFO - [text_processor.py:911] - AI流式处理完成: grammar_check.md, 响应时间: 4.07s
+2025-07-24 10:41:04 - __main__ - WARNING - [main.py:366] - 模板处理失败: None
+2025-07-24 10:41:07 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+z
+2025-07-24 10:41:12 - modules.hotkey_listener - INFO - [hotkey_listener.py:1619] - 触发快捷键: ctrl+2 -> translate.md
+2025-07-24 10:41:12 - __main__ - INFO - [main.py:357] - 处理模板: translate.md
+2025-07-24 10:41:12 - modules.text_processor - INFO - [text_processor.py:1065] - 开始完整的AI模板处理流程: translate.md
+2025-07-24 10:41:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:12 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:12 - modules.text_processor - INFO - [text_processor.py:414] - 成功处理模板 translate.md，文本长度: 26
+2025-07-24 10:41:17 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:41:17 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:118] - 已取消流: text_processor_1753324872725
+2025-07-24 10:41:17 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 1 个流
+2025-07-24 10:41:17 - modules.model_client - INFO - [model_client.py:388] - 流式请求已被用户取消
+2025-07-24 10:41:17 - modules.text_processor - INFO - [text_processor.py:911] - AI流式处理完成: translate.md, 响应时间: 5.23s
+2025-07-24 10:41:17 - __main__ - WARNING - [main.py:366] - 模板处理失败: None
+2025-07-24 10:41:18 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:187] - 检测到ESC键按下，开始取消流式输出
+2025-07-24 10:41:18 - modules.streaming_cancellation - INFO - [streaming_cancellation.py:198] - 已取消 0 个流
+2025-07-24 10:41:19 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+z
+2025-07-24 10:41:23 - modules.hotkey_listener - INFO - [hotkey_listener.py:1619] - 触发快捷键: ctrl+2 -> translate.md
+2025-07-24 10:41:23 - __main__ - INFO - [main.py:357] - 处理模板: translate.md
+2025-07-24 10:41:23 - modules.text_processor - INFO - [text_processor.py:1065] - 开始完整的AI模板处理流程: translate.md
+2025-07-24 10:41:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:23 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:41:23 - modules.text_processor - INFO - [text_processor.py:414] - 成功处理模板 translate.md，文本长度: 26
+2025-07-24 10:41:34 - modules.text_processor - INFO - [text_processor.py:911] - AI流式处理完成: translate.md, 响应时间: 11.06s
+2025-07-24 10:41:34 - __main__ - INFO - [main.py:364] - 模板处理成功: translate.md
+2025-07-24 10:41:37 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+z
+2025-07-24 10:41:43 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+shift+left
+2025-07-24 10:42:25 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+!
+2025-07-24 10:42:27 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+@
+2025-07-24 10:42:30 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: shift+?
+2025-07-24 10:43:18 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:43:20 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:43:29 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+c
+2025-07-24 10:43:31 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:43:38 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+a
+2025-07-24 10:43:42 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: cmd+w
+2025-07-24 10:43:44 - modules.hotkey_listener - WARNING - [hotkey_listener.py:1611] - 未找到快捷键对应的模板: ctrl+c
