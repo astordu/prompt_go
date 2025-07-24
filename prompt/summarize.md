@@ -1,4 +1,4 @@
-model: kimi
+model: kimi,kimi-k2-0711-preview
 temperature: 0.2
 max_tokens: 1500
 

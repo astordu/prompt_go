@@ -607,11 +607,40 @@ class ModelClient(ABC):
                 elif response.status >= 400:
                     raise APIConnectionError(f"API请求失败，状态码: {response.status}")
                 
+                buffer = ""
                 async for line in response.content:
-                    line_str = line.decode('utf-8').strip()
-                    if line_str:
-                        yield line_str
-                        
+                    line_str = line.decode('utf-8', errors='replace')
+                    if not line_str:
+                        continue
+                    buffer += line_str
+                    while True:
+                        idx = buffer.find("data: ")
+                        if idx == -1:
+                            # 没有完整data:块，等待更多数据
+                            break
+                        # 查找下一个data:，分割多包
+                        next_idx = buffer.find("data: ", idx + 6)
+                        if next_idx == -1:
+                            chunk = buffer[idx:]
+                            buffer = ""
+                        else:
+                            chunk = buffer[idx:next_idx]
+                            buffer = buffer[next_idx:]
+                        # 只处理以data:开头的块
+                        if not chunk.startswith("data: "):
+                            continue
+                        json_str = chunk[6:].strip()
+                        if not json_str or json_str == "[DONE]":
+                            yield chunk.strip()
+                            continue
+                        try:
+                            json.loads(json_str)
+                            yield chunk.strip()
+                        except Exception:
+                            # 还不是完整的JSON，保留buffer等待更多数据
+                            buffer = chunk + buffer
+                            break
+        
         except asyncio.TimeoutError:
             raise APITimeoutError(f"API异步流式请求超时（{timeout}秒）")
         except aiohttp.ClientConnectionError as e:
@@ -936,6 +965,14 @@ class DeepseekClient(ModelClient):
                 delta = choice["delta"]
                 if "content" in delta:
                     content = delta["content"] or ""
+                    # 修正：如果content为bytes则decode为utf-8
+                    if isinstance(content, bytes):
+                        try:
+                            content = content.decode('utf-8', errors='replace')
+                        except Exception as e:
+                            logger.warning(f"content解码异常: {e}")
+                    # 调试：打印原始content内容
+                    logger.debug(f"Kimi流式原始content: {repr(content)}")
                     
             # 检查是否完成
             if choice.get("finish_reason") is not None:
@@ -1057,24 +1094,14 @@ class KimiClient(ModelClient):
             
         super().__init__(api_key, base_url, timeout, max_retries)
         
-        # Kimi支持的模型列表
+        # 只支持kimi-k2-0711-preview模型
         self.supported_models = [
-            "moonshot-v1-8k",
-            "moonshot-v1-32k", 
-            "moonshot-v1-128k"
+            "kimi-k2-0711-preview"
         ]
         
         # 模型参数限制
         self.model_limits = {
-            "moonshot-v1-8k": {
-                "max_tokens": 8000,
-                "context_length": 8000
-            },
-            "moonshot-v1-32k": {
-                "max_tokens": 32000,
-                "context_length": 32000
-            },
-            "moonshot-v1-128k": {
+            "kimi-k2-0711-preview": {
                 "max_tokens": 128000,
                 "context_length": 128000
             }
@@ -1089,19 +1116,14 @@ class KimiClient(ModelClient):
         return self.supported_models.copy()
     
     def _map_kimi_model(self, model: str) -> str:
-        """将通用模型名映射到Kimi特定模型名"""
-        # 支持用户使用简化的模型名
-        model_mapping = {
-            "kimi": "moonshot-v1-8k",
-            "kimi-8k": "moonshot-v1-8k",
-            "kimi-32k": "moonshot-v1-32k",
-            "kimi-128k": "moonshot-v1-128k"
-        }
-        
-        return model_mapping.get(model, model)
+        """将通用模型名映射到Kimi特定模型名，只允许kimi-k2-0711-preview"""
+        # 只允许kimi-k2-0711-preview
+        if model == "kimi-k2-0711-preview":
+            return model
+        return ""
     
     def validate_model(self, model: str) -> bool:
-        """验证模型名称是否支持（支持模型映射）"""
+        """验证模型名称是否支持（只支持kimi-k2-0711-preview）"""
         mapped_model = self._map_kimi_model(model)
         return mapped_model in self.supported_models
     
@@ -1231,7 +1253,16 @@ class KimiClient(ModelClient):
                 chunk_json = json.loads(json_str)
             except json.JSONDecodeError:
                 logger.warning(f"无法解析Kimi流式数据块: {json_str}")
-                return None
+                # 新增：打印原始chunk_data内容
+                logger.warning(f"原始chunk_data: {repr(chunk_data)}")
+                # 尝试latin1转utf-8修正
+                try:
+                    fixed = json_str.encode('latin1').decode('utf-8')
+                    chunk_json = json.loads(fixed)
+                    logger.warning(f"latin1->utf8修正成功: {fixed}")
+                except Exception as e:
+                    logger.warning(f"latin1->utf8修正失败: {e}")
+                    return None
             
             # 检查错误
             if "error" in chunk_json:
@@ -1260,6 +1291,14 @@ class KimiClient(ModelClient):
                 delta = choice["delta"]
                 if "content" in delta:
                     content = delta["content"] or ""
+                    # 修正：如果content为bytes则decode为utf-8
+                    if isinstance(content, bytes):
+                        try:
+                            content = content.decode('utf-8', errors='replace')
+                        except Exception as e:
+                            logger.warning(f"content解码异常: {e}")
+                    # 调试：打印原始content内容
+                    logger.debug(f"Kimi流式原始content: {repr(content)}")
                     
             # 检查是否完成
             if choice.get("finish_reason") is not None:

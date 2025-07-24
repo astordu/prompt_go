@@ -632,7 +632,7 @@ class TemplateParser(BasicTemplateParser):
         # 定义厂商和对应的模型映射
         provider_models = {
             'deepseek': ['deepseek-chat', 'deepseek-reasoner'],
-            'kimi': ['moonshot-v1-8k', 'moonshot-v1-32k', 'moonshot-v1-128k']
+            'kimi': ['kimi-k2-0711-preview']
         }
         
         # 检查厂商是否支持

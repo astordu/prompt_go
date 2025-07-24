@@ -56,3 +56,37 @@
 2025-07-23 14:32:49 - modules.text_processor - ERROR - [text_processor.py:924] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek
 2025-07-23 14:33:37 - modules.text_processor - ERROR - [text_processor.py:924] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek
 2025-07-23 14:53:43 - modules.text_processor - ERROR - [text_processor.py:963] - 流式响应错误详情: 流式请求处理失败: 不支持的模型: deepseek-reasoner
+2025-07-23 16:59:54 - pynput.keyboard.Listener - ERROR - [__init__.py:234] - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/_util/darwin.py", line 290, in _handler
+    self._handle_message(proxy, event_type, event, refcon, is_injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/keyboard/_darwin.py", line 284, in _handle_message
+    key = self._event_to_key(event)
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/keyboard/_darwin.py", line 353, in _event_to_key
+    length, chars = CGEventKeyboardGetUnicodeString(
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        event, 100, None, None)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-16-le' codec can't decode bytes in position 0-1: unexpected end of data
+2025-07-23 17:00:20 - modules.hotkey_listener - ERROR - [hotkey_listener.py:2514] - 停止快捷键监听器失败: cannot join current thread
+2025-07-23 17:00:21 - modules.hotkey_listener - ERROR - [hotkey_listener.py:1564] - 监听器重启失败
+2025-07-23 17:01:33 - pynput.keyboard.Listener - ERROR - [__init__.py:234] - Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/_util/__init__.py", line 230, in inner
+    return f(self, *args, **kwargs)
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/_util/darwin.py", line 290, in _handler
+    self._handle_message(proxy, event_type, event, refcon, is_injected)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/keyboard/_darwin.py", line 284, in _handle_message
+    key = self._event_to_key(event)
+  File "/Users/dulei/Documents/project/prompt_go/.venv/lib/python3.13/site-packages/pynput/keyboard/_darwin.py", line 353, in _event_to_key
+    length, chars = CGEventKeyboardGetUnicodeString(
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        event, 100, None, None)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-16-le' codec can't decode bytes in position 0-1: unexpected end of data
+2025-07-23 17:01:56 - modules.hotkey_listener - ERROR - [hotkey_listener.py:2514] - 停止快捷键监听器失败: cannot join current thread
+2025-07-23 17:01:57 - modules.hotkey_listener - ERROR - [hotkey_listener.py:1564] - 监听器重启失败
