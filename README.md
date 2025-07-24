@@ -25,6 +25,21 @@ Prompt Manager is a local AI tool designed to enhance text processing efficiency
 - **Local Processing**: All processing done locally, protecting privacy and security
 - **Flexible Templates**: Uses Markdown format prompt templates with variable substitution support
 
+
+## 🎬 Demo Showcase
+
+Watch these animated demonstrations to see Prompt GO in action:
+
+### 📝 Content Organization Demo
+![Content Organization Demo](docs/images/CleanShot%202025-07-24%20at%2020.39.57.gif)
+
+### 🌐 Translation Demo  
+![Translation Demo](docs/images/CleanShot%202025-07-24%20at%2020.42.00.gif)
+
+### ⚡ Real-time Processing Demo
+![Real-time Processing Demo](docs/images/CleanShot%202025-07-24%20at%2020.44.17.gif)
+
+
 ## 🚀 Quick Start
 
 ### 📋 System Requirements
