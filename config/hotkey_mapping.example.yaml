@@ -5,6 +5,7 @@ hotkeys:
   # 文本处理相关快捷键
   ctrl+shift+1: tidy_content.md        # 内容整理
   ctrl+shift+2: translate.md           # 翻译功能
+  ctrl+shift+3: corect_english_grammer.md
 
 settings:
   # 启用快捷键监听
