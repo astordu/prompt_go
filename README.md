@@ -36,7 +36,7 @@ Watch these animated demonstrations to see Prompt GO in action:
 ### 🌐 Translation Demo  
 ![Translation Demo](docs/images/CleanShot%202025-07-24%20at%2020.42.00.gif)
 
-### ⚡ Real-time Processing Demo
+### ⚡ mermaid Demo
 ![Real-time Processing Demo](docs/images/CleanShot%202025-07-24%20at%2020.44.17.gif)
 
 
