@@ -25,6 +25,8 @@ ENV/
 *~
 .DS_Store
 Thumbs.db
+.cursor/
+tasks/
 
 # Project-specific files
 *.log
