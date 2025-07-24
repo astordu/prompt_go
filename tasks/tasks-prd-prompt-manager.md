@@ -44,7 +44,7 @@
   - [x] 1.1 创建项目目录结构（modules/, config/, prompt/, tests/）
   - [x] 1.2 初始化requirements.txt，包含pynput、pyperclip、requests、PyYAML等依赖
   - [x] 1.3 创建config_manager.py模块，实现配置文件的读取、写入和验证功能
-  - [x] 1.4 设计并创建global_config.yaml模板，包含Deepseek和Kimi的API密钥配置
+  - [x] 1.4 设计并创建global_config.yaml模板，包含Deepseek的API密钥配置
   - [x] 1.5 设计并创建hotkey_mapping.yaml模板，支持1-9快捷键到模板文件的映射
   - [x] 1.6 实现配置文件的动态重新加载功能
   - [x] 1.7 程序启动时自动创建prompt文件夹的逻辑
@@ -61,7 +61,6 @@
 - [x] 3.0 AI模型客户端集成
   - [x] 3.1 创建model_client.py模块，设计统一的模型调用接口
   - [x] 3.2 实现Deepseek API客户端，支持完整的请求和响应处理
-  - [x] 3.3 实现Kimi API客户端，支持完整的请求和响应处理
   - [x] 3.4 实现流式响应处理，支持实时数据流解析
   - [x] 3.5 添加API调用的错误处理和重试机制
   - [x] 3.6 实现模型响应的异步处理，避免阻塞主线程
@@ -102,7 +101,7 @@
 
 1. **配置管理系统** - 支持YAML配置文件和热重载
 2. **模板解析系统** - 高级模板引擎，支持YAML前置配置和占位符
-3. **AI模型集成** - 支持Deepseek和Kimi模型，包含流式输出
+3. **AI模型集成** - 支持Deepseek模型，包含流式输出
 4. **快捷键监听** - 全局快捷键系统，支持macOS/Windows/Linux
 5. **文本处理** - 智能文本选择、插入和输出，包含字符过滤
 6. **主程序集成** - 完整的程序架构，优雅启动和关闭

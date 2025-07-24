@@ -24,7 +24,7 @@
 
 - **🔥 全局快捷键**：`Ctrl+Alt+Cmd+1-9` 一键触发AI处理
 - **⚡ 极速响应**：快捷键响应时间 < 1ms，远超预期目标
-- **🤖 多AI模型**：支持 Deepseek、Kimi 等主流AI服务
+- **🤖 AI模型**：支持 Deepseek 主流AI服务
 - **📝 智能模板**：Markdown模板 + YAML配置，灵活强大
 - **🎨 实时输出**：流式输出直接插入到光标位置
 - **🔧 热重载配置**：配置修改立即生效，无需重启
@@ -83,8 +83,7 @@ uv run python main.py
 ### ⚡ 5分钟体验
 
 1. **获取API密钥**
-   - [Deepseek API](https://platform.deepseek.com/) 
-   - [Kimi API](https://platform.moonshot.cn/)
+   - [Deepseek API](https://platform.deepseek.com/)
 
 2. **配置密钥**
    ```yaml
@@ -129,11 +128,6 @@ api:
     base_url: https://api.deepseek.com
     key: 'sk-your-deepseek-api-key'
     model: deepseek-chat
-  
-  kimi:
-    base_url: https://api.moonshot.cn
-    key: 'sk-your-kimi-api-key'
-    model: moonshot-v1-8k
 
 logging:
   level: INFO
@@ -244,12 +238,6 @@ performance:
 # 智能模型选择
 model_selection:
   default: deepseek
-  fallback_order: [deepseek, kimi]
-  
-task_routing:
-  summarize: deepseek    # 总结用deepseek
-  translate: kimi        # 翻译用kimi
-  code_review: deepseek  # 代码审查用deepseek
 ```
 </details>
 

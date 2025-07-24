@@ -31,7 +31,6 @@ class TestModelTypes:
     def test_model_type_enum(self):
         """测试模型类型枚举"""
         assert ModelType.DEEPSEEK.value == "deepseek"
-        assert ModelType.KIMI.value == "kimi"
     
     def test_response_status_enum(self):
         """测试响应状态枚举"""
@@ -328,12 +327,6 @@ class TestModelClientFactory:
         assert isinstance(client, DeepseekClient)
         assert client.api_key == "test-api-key"
     
-    def test_create_kimi_client(self):
-        """测试创建Kimi客户端"""
-        client = ModelClientFactory.create_client(ModelType.KIMI, "test-api-key")
-        
-        assert isinstance(client, KimiClient)
-        assert client.api_key == "test-api-key"
     
     def test_invalid_model_type(self):
         """测试无效模型类型"""
@@ -370,32 +363,6 @@ class TestDeepseekClient:
         assert deepseek_client.validate_model("invalid-model") == False
 
 
-class TestKimiClient:
-    """KimiClient类基本测试"""
-    
-    @pytest.fixture
-    def kimi_client(self):
-        """创建KimiClient实例"""
-        return KimiClient("test-api-key")
-    
-    def test_kimi_client_init(self, kimi_client):
-        """测试KimiClient初始化"""
-        assert kimi_client.api_key == "test-api-key"
-        assert kimi_client.get_model_type() == ModelType.KIMI
-    
-    def test_get_supported_models(self, kimi_client):
-        """测试获取支持的模型"""
-        models = kimi_client.get_supported_models()
-        assert isinstance(models, list)
-        assert len(models) > 0
-    
-    def test_validate_model(self, kimi_client):
-        """测试模型验证"""
-        supported_models = kimi_client.get_supported_models()
-        if supported_models:
-            assert kimi_client.validate_model(supported_models[0]) == True
-        
-        assert kimi_client.validate_model("invalid-model") == False
 
 
 class TestModelClientErrors:

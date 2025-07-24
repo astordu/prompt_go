@@ -42,7 +42,6 @@ from .model_client import (
     APIAuthenticationError,
     APIValidationError,
     DeepseekClient,
-    KimiClient,
     ModelClientFactory,
     ClientManager,
     StreamBuffer,
@@ -53,7 +52,6 @@ from .model_client import (
     RetryHandler,
     RetryMixin,
     EnhancedDeepseekClient,
-    EnhancedKimiClient,
     ConnectionPool,
     TimeoutManager,
     EnhancedModelClient
@@ -106,7 +104,6 @@ __all__ = [
     'APIAuthenticationError',
     'APIValidationError',
     'DeepseekClient',
-    'KimiClient',
     'ModelClientFactory',
     'ClientManager',
     'StreamBuffer',
@@ -118,7 +115,6 @@ __all__ = [
     'RetryHandler',
     'RetryMixin',
     'EnhancedDeepseekClient',
-    'EnhancedKimiClient',
     # Connection and timeout management
     'ConnectionPool',
     'TimeoutManager',

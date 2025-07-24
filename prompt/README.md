@@ -8,7 +8,7 @@
 
 ### 第一部分：模型配置
 ```yaml
-model: deepseek          # 使用的模型 (deepseek/kimi)
+model: deepseek          # 使用的模型 (deepseek)
 temperature: 0.3         # 温度参数 (0.0-1.0)
 max_tokens: 2000        # 最大令牌数
 ```
@@ -43,6 +43,6 @@ max_tokens: 2000        # 最大令牌数
 ## 注意事项
 
 - 文件名使用英文和下划线
-- 确保模型名称正确 (deepseek/kimi)
+- 确保模型名称正确 (deepseek)
 - 模板内容要清晰具体
 - 定期备份重要的模板文件
