@@ -2,10 +2,10 @@
 # 此文件展示了如何配置快捷键映射到不同功能的提示词模板
 
 hotkeys:
-  # 文本处理相关快捷键
-  ctrl+shift+1: tidy_content.md        # 内容整理
-  ctrl+shift+2: translate.md           # 翻译功能
+  ctrl+shift+1: tidy_content_plain_txt.md
+  ctrl+shift+2: translate_plain_txt.md
   ctrl+shift+3: corect_english_grammer.md
+  ctrl+shift+0: mermaid.md
 
 settings:
   # 启用快捷键监听
