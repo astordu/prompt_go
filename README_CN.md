@@ -77,7 +77,10 @@ pip install -r requirements.txt
 cp config/global_config.example.yaml config/global_config.yaml
 # 编辑 config/global_config.yaml，填入你的API密钥 (目前只支持deepseek)
 
-# 4. 启动程序
+# 4.配置快捷键
+cp config/hotkey_mapping.example.yaml config/hotkey_mapping.yaml
+
+# 5. 启动程序
 uv run python main.py
 ```
 

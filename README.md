@@ -77,7 +77,10 @@ pip install -r requirements.txt
 cp config/global_config.example.yaml config/global_config.yaml
 # Edit config/global_config.yaml and enter your API key (currently only supports deepseek)
 
-# 4. Start the program
+# 4.Configure hotkeys 
+cp config/hotkey_mapping.example.yaml config/hotkey_mapping.yaml
+
+# 5. Start the program
 uv run python main.py
 ```
 
